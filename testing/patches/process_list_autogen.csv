@@ -1,0 +1,5 @@
+slide_id,process,status,seg_level,sthresh,mthresh,close,use_otsu,keep_ids,exclude_ids,remove_markings,a_t,a_h,max_n_holes,vis_level,line_thickness,use_padding,contour_fn
+100012_11445.svs,0,already_exist,-1,15,11,4,False,none,none,False,100.0,16.0,8,-1,150,True,four_pt
+Slide-0001325_TI00670 4001.svs,0,already_exist,-1,15,11,4,False,none,none,False,100.0,16.0,8,-1,150,True,four_pt
+TCGA-05-4244-01A-01-BS1.90f043f6-e8d5-4cfd-b4e7-84207bc499a6.svs,0,already_exist,-1,15,11,4,False,none,none,False,100.0,16.0,8,-1,150,True,four_pt
+slide-2025-04-11T11-44-33-R1-S1.mrxs,0,already_exist,-1,15,11,4,False,none,none,False,100.0,16.0,8,-1,150,True,four_pt

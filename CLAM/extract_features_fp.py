@@ -4,6 +4,7 @@ import os
 import argparse
 import pdb
 from functools import partial
+import random
 
 import torch
 import torch.nn as nn
@@ -22,13 +23,67 @@ from models import get_encoder
 
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
-def compute_w_loader(output_path, loader, model, device, model_name, verbose=1):
+def save_random_sample(batch, coords, slide_id, feat_dir, model_name, sample_idx):
+	"""
+	Save a single random sample image for visual inspection.
+	
+	Args:
+		batch: Tensor containing a single image (batch size 1)
+		coords: Coordinates of the patch
+		slide_id: Name of the slide
+		feat_dir: Base feature directory
+		model_name: Name of the model to determine correct denormalization
+		sample_idx: Index of this sample for filename
+	"""
+	samples_dir = os.path.join(feat_dir, 'samples', slide_id)
+	
+	# Define normalization values for different models
+	if model_name in ['conch_v1']:
+		# OPENAI normalization values
+		mean = torch.tensor([0.48145466, 0.4578275, 0.40821073]).view(3, 1, 1)
+		std = torch.tensor([0.26862954, 0.26130258, 0.27577711]).view(3, 1, 1)
+	elif model_name in ['H-optimus-0']:
+		# H-optimus specific normalization
+		mean = torch.tensor([0.707223, 0.578729, 0.703617]).view(3, 1, 1)
+		std = torch.tensor([0.211883, 0.230117, 0.177517]).view(3, 1, 1)
+	else:
+		# Default ImageNet normalization (used by most models)
+		mean = torch.tensor([0.485, 0.456, 0.406]).view(3, 1, 1)
+		std = torch.tensor([0.229, 0.224, 0.225]).view(3, 1, 1)
+	
+	# Convert tensor to PIL Image for saving
+	img_tensor = batch[0]  # Get the single image from batch
+	
+	# Denormalize
+	img_tensor = img_tensor * std + mean
+	img_tensor = torch.clamp(img_tensor, 0, 1)
+	
+	# Convert to PIL Image
+	img_np = (img_tensor.permute(1, 2, 0).cpu().numpy() * 255).astype(np.uint8)
+	img_pil = Image.fromarray(img_np)
+	
+	# Create filename with coordinates for reference
+	coord = coords[0]
+	filename = f"random_patch_{sample_idx:03d}_coord_{coord[0]}_{coord[1]}.jpg"
+	filepath = os.path.join(samples_dir, filename)
+	
+	# Save the image
+	img_pil.save(filepath, quality=95)
+	
+	if sample_idx == 0:  # Print only for first sample to avoid spam
+		print(f"Saving random samples to {samples_dir}")
+
+def compute_w_loader(output_path, loader, model, device, model_name, slide_id, feat_dir, save_samples=10, verbose=1):
 	"""
 	Args:
 		output_path: directory to save computed features (.h5 file)
 		loader: DataLoader object
 		model: pytorch model
 		device: torch device
+		model_name: name of the model being used
+		slide_id: name of the slide for sample saving
+		feat_dir: base feature directory for sample saving
+		save_samples: number of sample images to save (0 to disable)
 		verbose: level of feedback
 	"""
 	if verbose > 0:
@@ -36,6 +91,17 @@ def compute_w_loader(output_path, loader, model, device, model_name, verbose=1):
 
 	mode = 'w'
 	model.eval()  # Ensure the model is in evaluation mode
+	
+	# Setup for random sampling across batches
+	saved_samples = 0
+	total_batches = len(loader)
+	if save_samples > 0 and total_batches > 0:
+		# Calculate sampling probability to get approximately save_samples images
+		# We'll sample roughly 1 image per batch until we have enough samples
+		samples_per_batch = max(1, save_samples // total_batches)
+		sample_probability = min(1.0, save_samples / total_batches)
+		samples_dir = os.path.join(feat_dir, 'samples', slide_id)
+		os.makedirs(samples_dir, exist_ok=True)
 	
 	for count, data in enumerate(tqdm(loader)):
 		try:
@@ -45,7 +111,20 @@ def compute_w_loader(output_path, loader, model, device, model_name, verbose=1):
 			with torch.inference_mode():
 				batch = data['img']
 				coords = data['coord'].numpy().astype(np.int32)
-			
+				
+				# Randomly sample images from across all batches
+				if save_samples > 0 and saved_samples < save_samples:
+					# Decide whether to sample from this batch
+					if random.random() < sample_probability or saved_samples == 0:
+						# Randomly select one image from this batch
+						batch_size = batch.shape[0]
+						random_idx = random.randint(0, batch_size - 1)
+						
+						sample_img = batch[random_idx:random_idx+1]  # Keep batch dimension
+						sample_coord = coords[random_idx:random_idx+1]
+						
+						save_random_sample(sample_img, sample_coord, slide_id, feat_dir, model_name, saved_samples)
+						saved_samples += 1
 
 				batch = batch.to(device, non_blocking=True)
 				features = model(batch)
@@ -77,6 +156,10 @@ def compute_w_loader(output_path, loader, model, device, model_name, verbose=1):
 			print(f"Error processing batch {count + 1}: {e}")
 			raise  # Re-raise the exception to stop the loop if necessary
 	
+	# Print summary of saved samples
+	if save_samples > 0:
+		print(f"Saved {saved_samples}/{save_samples} random sample images for slide {slide_id}")
+	
 	return output_path
 
 
@@ -90,6 +173,7 @@ parser.add_argument('--model_name', type=str, default='resnet50_trunc', choices=
 parser.add_argument('--batch_size', type=int, default=256)
 parser.add_argument('--no_auto_skip', default=False, action='store_true')
 parser.add_argument('--target_patch_size', type=int, default=224)
+parser.add_argument('--save_samples', type=int, default=10, help='Number of sample images to save per slide (0 to disable)')
 args = parser.parse_args()
 
 
@@ -105,6 +189,8 @@ if __name__ == '__main__':
 	os.makedirs(args.feat_dir, exist_ok=True)
 	os.makedirs(os.path.join(args.feat_dir, 'pt_files'), exist_ok=True)
 	os.makedirs(os.path.join(args.feat_dir, 'h5_files'), exist_ok=True)
+	if args.save_samples > 0:
+		os.makedirs(os.path.join(args.feat_dir, 'samples'), exist_ok=True)
 	dest_files = os.listdir(os.path.join(args.feat_dir, 'pt_files'))
 
 	model, img_transforms = get_encoder(args.model_name, target_img_size=args.target_patch_size)
@@ -146,7 +232,7 @@ if __name__ == '__main__':
 			loader = DataLoader(dataset=dataset, batch_size=args.batch_size, **loader_kwargs)
 				
 			try:
-				output_file_path = compute_w_loader(output_path, loader=loader, model=model, device=device, model_name=args.model_name, verbose=1)
+				output_file_path = compute_w_loader(output_path, loader=loader, model=model, device=device, model_name=args.model_name, slide_id=slide_id, feat_dir=args.feat_dir, save_samples=args.save_samples, verbose=1)
 			except Exception as e:
 				print("Error here")
 				print(e)
