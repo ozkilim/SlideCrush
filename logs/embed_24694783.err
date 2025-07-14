@@ -1,0 +1,647 @@
+  0%|          | 0/71 [00:00<?, ?it/s]  3%|▎         | 2/71 [00:00<00:28,  2.45it/s] 11%|█▏        | 8/71 [00:00<00:05, 10.97it/s] 23%|██▎       | 16/71 [00:01<00:02, 22.66it/s] 34%|███▍      | 24/71 [00:01<00:01, 33.84it/s] 45%|████▌     | 32/71 [00:01<00:00, 43.38it/s] 62%|██████▏   | 44/71 [00:01<00:00, 59.19it/s] 75%|███████▍  | 53/71 [00:01<00:00, 64.91it/s] 86%|████████▌ | 61/71 [00:01<00:00, 66.10it/s]100%|██████████| 71/71 [00:01<00:00, 42.63it/s]
+Overall Progress:   0%|          | 0/71 [00:00<?, ?it/s]/nemo/project/proj-tracerx-lung/tctProjects/kilimo/SlideCrush/CLAM/extract_features_optimized.py:242: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler()
+
+Processing Tx421_TMA001:   0%|          | 0/6 [00:00<?, ?it/s][A/nemo/project/proj-tracerx-lung/tctProjects/kilimo/SlideCrush/CLAM/extract_features_optimized.py:250: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.no_grad(), autocast():
+
+Processing Tx421_TMA001:  17%|█▋        | 1/6 [00:22<01:53, 22.72s/it][A
+Processing Tx421_TMA001:  33%|███▎      | 2/6 [00:24<00:40, 10.12s/it][A
+Processing Tx421_TMA001:  50%|█████     | 3/6 [00:25<00:18,  6.10s/it][A
+Processing Tx421_TMA001:  67%|██████▋   | 4/6 [00:26<00:08,  4.21s/it][A
+Processing Tx421_TMA001:  83%|████████▎ | 5/6 [00:29<00:03,  3.82s/it][A
+Processing Tx421_TMA001: 100%|██████████| 6/6 [00:30<00:00,  2.80s/it][AProcessing Tx421_TMA001: 100%|██████████| 6/6 [00:30<00:00,  5.10s/it]
+Overall Progress:   1%|▏         | 1/71 [00:31<36:40, 31.43s/it]
+Processing Tx421_TMA001:   0%|          | 0/6 [00:00<?, ?it/s][A
+Processing Tx421_TMA001:  17%|█▋        | 1/6 [00:16<01:23, 16.76s/it][A
+Processing Tx421_TMA001:  33%|███▎      | 2/6 [00:19<00:33,  8.32s/it][A
+Processing Tx421_TMA001:  50%|█████     | 3/6 [00:20<00:15,  5.12s/it][A
+Processing Tx421_TMA001:  67%|██████▋   | 4/6 [00:22<00:07,  3.76s/it][A
+Processing Tx421_TMA001:  83%|████████▎ | 5/6 [00:28<00:04,  4.77s/it][A
+Processing Tx421_TMA001: 100%|██████████| 6/6 [00:29<00:00,  3.41s/it][AProcessing Tx421_TMA001: 100%|██████████| 6/6 [00:29<00:00,  4.91s/it]
+Overall Progress:   3%|▎         | 2/71 [01:01<34:56, 30.38s/it]
+Processing Tx421_TMA002:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA002:  14%|█▍        | 1/7 [00:16<01:40, 16.75s/it][A
+Processing Tx421_TMA002:  29%|██▊       | 2/7 [00:18<00:38,  7.67s/it][A
+Processing Tx421_TMA002:  43%|████▎     | 3/7 [00:19<00:19,  4.77s/it][A
+Processing Tx421_TMA002:  57%|█████▋    | 4/7 [00:20<00:10,  3.41s/it][A
+Processing Tx421_TMA002:  71%|███████▏  | 5/7 [00:29<00:10,  5.38s/it][A
+Processing Tx421_TMA002:  86%|████████▌ | 6/7 [00:30<00:03,  4.00s/it][A
+Processing Tx421_TMA002: 100%|██████████| 7/7 [00:31<00:00,  2.95s/it][AProcessing Tx421_TMA002: 100%|██████████| 7/7 [00:31<00:00,  4.53s/it]
+Overall Progress:   4%|▍         | 3/71 [01:33<35:25, 31.26s/it]
+Processing Tx421_TMA002:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA002:  14%|█▍        | 1/7 [00:15<01:33, 15.52s/it][A
+Processing Tx421_TMA002:  29%|██▊       | 2/7 [00:16<00:35,  7.17s/it][A
+Processing Tx421_TMA002:  43%|████▎     | 3/7 [00:18<00:17,  4.50s/it][A
+Processing Tx421_TMA002:  57%|█████▋    | 4/7 [00:19<00:09,  3.24s/it][A
+Processing Tx421_TMA002:  71%|███████▏  | 5/7 [00:29<00:11,  5.59s/it][A
+Processing Tx421_TMA002:  86%|████████▌ | 6/7 [00:30<00:04,  4.13s/it][A
+Processing Tx421_TMA002: 100%|██████████| 7/7 [00:31<00:00,  3.04s/it][AProcessing Tx421_TMA002: 100%|██████████| 7/7 [00:31<00:00,  4.48s/it]
+Overall Progress:   6%|▌         | 4/71 [02:04<35:02, 31.38s/it]
+Processing Tx421_TMA004:   0%|          | 0/5 [00:00<?, ?it/s][A
+Processing Tx421_TMA004:  20%|██        | 1/5 [00:16<01:04, 16.19s/it][A
+Processing Tx421_TMA004:  40%|████      | 2/5 [00:17<00:22,  7.44s/it][A
+Processing Tx421_TMA004:  60%|██████    | 3/5 [00:18<00:09,  4.65s/it][A
+Processing Tx421_TMA004:  80%|████████  | 4/5 [00:20<00:03,  3.33s/it][A
+Processing Tx421_TMA004: 100%|██████████| 5/5 [00:25<00:00,  4.23s/it][AProcessing Tx421_TMA004: 100%|██████████| 5/5 [00:25<00:00,  5.19s/it]
+Overall Progress:   7%|▋         | 5/71 [02:31<32:47, 29.80s/it]
+Processing Tx421_TMA004:   0%|          | 0/5 [00:00<?, ?it/s][A
+Processing Tx421_TMA004:  20%|██        | 1/5 [00:15<01:01, 15.31s/it][A
+Processing Tx421_TMA004:  40%|████      | 2/5 [00:16<00:21,  7.08s/it][A
+Processing Tx421_TMA004:  60%|██████    | 3/5 [00:17<00:08,  4.45s/it][A
+Processing Tx421_TMA004:  80%|████████  | 4/5 [00:19<00:03,  3.21s/it][A
+Processing Tx421_TMA004: 100%|██████████| 5/5 [00:24<00:00,  3.87s/it][AProcessing Tx421_TMA004: 100%|██████████| 5/5 [00:24<00:00,  4.86s/it]
+Overall Progress:   8%|▊         | 6/71 [02:56<30:19, 27.98s/it]
+Processing Tx421_TMA006:   0%|          | 0/6 [00:00<?, ?it/s][A
+Processing Tx421_TMA006:  17%|█▋        | 1/6 [00:16<01:21, 16.30s/it][A
+Processing Tx421_TMA006:  33%|███▎      | 2/6 [00:17<00:29,  7.49s/it][A
+Processing Tx421_TMA006:  50%|█████     | 3/6 [00:18<00:14,  4.67s/it][A
+Processing Tx421_TMA006:  67%|██████▋   | 4/6 [00:20<00:06,  3.35s/it][A
+Processing Tx421_TMA006:  83%|████████▎ | 5/6 [00:30<00:05,  5.69s/it][A
+Processing Tx421_TMA006: 100%|██████████| 6/6 [00:31<00:00,  4.12s/it][AProcessing Tx421_TMA006: 100%|██████████| 6/6 [00:31<00:00,  5.20s/it]
+Overall Progress:  10%|▉         | 7/71 [03:28<31:11, 29.24s/it]
+Processing Tx421_TMA006:   0%|          | 0/6 [00:00<?, ?it/s][A
+Processing Tx421_TMA006:  17%|█▋        | 1/6 [00:15<01:18, 15.77s/it][A
+Processing Tx421_TMA006:  33%|███▎      | 2/6 [00:17<00:29,  7.27s/it][A
+Processing Tx421_TMA006:  50%|█████     | 3/6 [00:18<00:13,  4.55s/it][A
+Processing Tx421_TMA006:  67%|██████▋   | 4/6 [00:19<00:06,  3.28s/it][A
+Processing Tx421_TMA006:  83%|████████▎ | 5/6 [00:29<00:05,  5.66s/it][A
+Processing Tx421_TMA006: 100%|██████████| 6/6 [00:30<00:00,  4.12s/it][AProcessing Tx421_TMA006: 100%|██████████| 6/6 [00:30<00:00,  5.12s/it]
+Overall Progress:  11%|█▏        | 8/71 [03:59<31:15, 29.77s/it]
+Processing Tx421_TMA007:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA007:  14%|█▍        | 1/7 [00:16<01:38, 16.44s/it][A
+Processing Tx421_TMA007:  29%|██▊       | 2/7 [00:17<00:37,  7.54s/it][A
+Processing Tx421_TMA007:  43%|████▎     | 3/7 [00:19<00:18,  4.70s/it][A
+Processing Tx421_TMA007:  57%|█████▋    | 4/7 [00:20<00:10,  3.37s/it][A
+Processing Tx421_TMA007:  71%|███████▏  | 5/7 [00:30<00:11,  5.69s/it][A
+Processing Tx421_TMA007:  86%|████████▌ | 6/7 [00:31<00:04,  4.20s/it][A
+Processing Tx421_TMA007: 100%|██████████| 7/7 [00:32<00:00,  3.15s/it][AProcessing Tx421_TMA007: 100%|██████████| 7/7 [00:32<00:00,  4.64s/it]
+Overall Progress:  13%|█▎        | 9/71 [04:32<31:52, 30.84s/it]
+Processing Tx421_TMA007:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA007:  14%|█▍        | 1/7 [00:14<01:28, 14.77s/it][A
+Processing Tx421_TMA007:  29%|██▊       | 2/7 [00:16<00:34,  6.86s/it][A
+Processing Tx421_TMA007:  43%|████▎     | 3/7 [00:17<00:17,  4.33s/it][A
+Processing Tx421_TMA007:  57%|█████▋    | 4/7 [00:18<00:09,  3.14s/it][A
+Processing Tx421_TMA007:  71%|███████▏  | 5/7 [00:27<00:10,  5.08s/it][A
+Processing Tx421_TMA007:  86%|████████▌ | 6/7 [00:28<00:03,  3.80s/it][A
+Processing Tx421_TMA007: 100%|██████████| 7/7 [00:29<00:00,  2.88s/it][AProcessing Tx421_TMA007: 100%|██████████| 7/7 [00:29<00:00,  4.22s/it]
+Overall Progress:  14%|█▍        | 10/71 [05:02<30:59, 30.49s/it]
+Processing Tx421_TMA009:   0%|          | 0/6 [00:00<?, ?it/s][A
+Processing Tx421_TMA009:  17%|█▋        | 1/6 [00:15<01:17, 15.56s/it][A
+Processing Tx421_TMA009:  33%|███▎      | 2/6 [00:16<00:28,  7.18s/it][A
+Processing Tx421_TMA009:  50%|█████     | 3/6 [00:18<00:13,  4.50s/it][A
+Processing Tx421_TMA009:  67%|██████▋   | 4/6 [00:19<00:06,  3.25s/it][A
+Processing Tx421_TMA009:  83%|████████▎ | 5/6 [00:28<00:05,  5.29s/it][A
+Processing Tx421_TMA009: 100%|██████████| 6/6 [00:32<00:00,  4.72s/it][AProcessing Tx421_TMA009: 100%|██████████| 6/6 [00:32<00:00,  5.34s/it]
+Overall Progress:  15%|█▌        | 11/71 [05:34<31:09, 31.16s/it]
+Processing Tx421_TMA009:   0%|          | 0/6 [00:00<?, ?it/s][A
+Processing Tx421_TMA009:  17%|█▋        | 1/6 [00:15<01:18, 15.61s/it][A
+Processing Tx421_TMA009:  33%|███▎      | 2/6 [00:16<00:28,  7.20s/it][A
+Processing Tx421_TMA009:  50%|█████     | 3/6 [00:18<00:13,  4.51s/it][A
+Processing Tx421_TMA009:  67%|██████▋   | 4/6 [00:19<00:06,  3.25s/it][A
+Processing Tx421_TMA009:  83%|████████▎ | 5/6 [00:28<00:05,  5.43s/it][A
+Processing Tx421_TMA009: 100%|██████████| 6/6 [00:30<00:00,  4.12s/it][AProcessing Tx421_TMA009: 100%|██████████| 6/6 [00:30<00:00,  5.07s/it]
+Overall Progress:  17%|█▋        | 12/71 [06:05<30:28, 30.99s/it]
+Processing Tx421_TMA011:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA011:  12%|█▎        | 1/8 [00:15<01:48, 15.49s/it][A
+Processing Tx421_TMA011:  25%|██▌       | 2/8 [00:16<00:42,  7.15s/it][A
+Processing Tx421_TMA011:  38%|███▊      | 3/8 [00:18<00:22,  4.49s/it][A
+Processing Tx421_TMA011:  50%|█████     | 4/8 [00:19<00:12,  3.25s/it][A
+Processing Tx421_TMA011:  62%|██████▎   | 5/8 [00:28<00:15,  5.29s/it][A
+Processing Tx421_TMA011:  75%|███████▌  | 6/8 [00:29<00:08,  4.02s/it][A
+Processing Tx421_TMA011:  88%|████████▊ | 7/8 [00:31<00:03,  3.14s/it][A
+Processing Tx421_TMA011: 100%|██████████| 8/8 [00:31<00:00,  2.26s/it][AProcessing Tx421_TMA011: 100%|██████████| 8/8 [00:31<00:00,  3.96s/it]
+Overall Progress:  18%|█▊        | 13/71 [06:37<30:20, 31.38s/it]
+Processing Tx421_TMA011:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA011:  12%|█▎        | 1/8 [00:15<01:48, 15.43s/it][A
+Processing Tx421_TMA011:  25%|██▌       | 2/8 [00:16<00:42,  7.13s/it][A
+Processing Tx421_TMA011:  38%|███▊      | 3/8 [00:18<00:22,  4.48s/it][A
+Processing Tx421_TMA011:  50%|█████     | 4/8 [00:19<00:12,  3.23s/it][A
+Processing Tx421_TMA011:  62%|██████▎   | 5/8 [00:28<00:16,  5.49s/it][A
+Processing Tx421_TMA011:  75%|███████▌  | 6/8 [00:30<00:08,  4.07s/it][A
+Processing Tx421_TMA011:  88%|████████▊ | 7/8 [00:31<00:03,  3.17s/it][A
+Processing Tx421_TMA011: 100%|██████████| 8/8 [00:32<00:00,  2.33s/it][AProcessing Tx421_TMA011: 100%|██████████| 8/8 [00:32<00:00,  4.01s/it]
+Overall Progress:  20%|█▉        | 14/71 [07:09<30:03, 31.64s/it]
+Processing Tx421_TMA012:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA012:  14%|█▍        | 1/7 [00:16<01:40, 16.83s/it][A
+Processing Tx421_TMA012:  29%|██▊       | 2/7 [00:18<00:38,  7.71s/it][A
+Processing Tx421_TMA012:  43%|████▎     | 3/7 [00:19<00:19,  4.79s/it][A
+Processing Tx421_TMA012:  57%|█████▋    | 4/7 [00:20<00:10,  3.42s/it][A
+Processing Tx421_TMA012:  71%|███████▏  | 5/7 [00:30<00:11,  5.85s/it][A
+Processing Tx421_TMA012:  86%|████████▌ | 6/7 [00:32<00:04,  4.31s/it][A
+Processing Tx421_TMA012: 100%|██████████| 7/7 [00:34<00:00,  3.49s/it][AProcessing Tx421_TMA012: 100%|██████████| 7/7 [00:34<00:00,  4.87s/it]
+Overall Progress:  21%|██        | 15/71 [07:44<30:27, 32.63s/it]
+Processing Tx421_TMA012:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA012:  14%|█▍        | 1/7 [00:15<01:34, 15.68s/it][A
+Processing Tx421_TMA012:  29%|██▊       | 2/7 [00:17<00:36,  7.23s/it][A
+Processing Tx421_TMA012:  43%|████▎     | 3/7 [00:18<00:18,  4.53s/it][A
+Processing Tx421_TMA012:  57%|█████▋    | 4/7 [00:19<00:09,  3.27s/it][A
+Processing Tx421_TMA012:  71%|███████▏  | 5/7 [00:29<00:10,  5.49s/it][A
+Processing Tx421_TMA012:  86%|████████▌ | 6/7 [00:30<00:04,  4.07s/it][A
+Processing Tx421_TMA012: 100%|██████████| 7/7 [00:32<00:00,  3.33s/it][AProcessing Tx421_TMA012: 100%|██████████| 7/7 [00:32<00:00,  4.60s/it]
+Overall Progress:  23%|██▎       | 16/71 [08:17<29:50, 32.55s/it]
+Processing Tx421_TMA013:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA013:  14%|█▍        | 1/7 [00:16<01:39, 16.64s/it][A
+Processing Tx421_TMA013:  29%|██▊       | 2/7 [00:17<00:38,  7.63s/it][A
+Processing Tx421_TMA013:  43%|████▎     | 3/7 [00:19<00:18,  4.75s/it][A
+Processing Tx421_TMA013:  57%|█████▋    | 4/7 [00:20<00:10,  3.39s/it][A
+Processing Tx421_TMA013:  71%|███████▏  | 5/7 [00:29<00:10,  5.49s/it][A
+Processing Tx421_TMA013:  86%|████████▌ | 6/7 [00:32<00:04,  4.46s/it][A
+Processing Tx421_TMA013: 100%|██████████| 7/7 [00:33<00:00,  3.38s/it][AProcessing Tx421_TMA013: 100%|██████████| 7/7 [00:33<00:00,  4.77s/it]
+Overall Progress:  24%|██▍       | 17/71 [08:51<29:54, 33.23s/it]
+Processing Tx421_TMA013:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA013:  14%|█▍        | 1/7 [00:15<01:32, 15.43s/it][A
+Processing Tx421_TMA013:  29%|██▊       | 2/7 [00:16<00:35,  7.13s/it][A
+Processing Tx421_TMA013:  43%|████▎     | 3/7 [00:18<00:17,  4.48s/it][A
+Processing Tx421_TMA013:  57%|█████▋    | 4/7 [00:19<00:09,  3.23s/it][A
+Processing Tx421_TMA013:  71%|███████▏  | 5/7 [00:29<00:11,  5.71s/it][A
+Processing Tx421_TMA013:  86%|████████▌ | 6/7 [00:30<00:04,  4.22s/it][A
+Processing Tx421_TMA013: 100%|██████████| 7/7 [00:31<00:00,  3.19s/it][AProcessing Tx421_TMA013: 100%|██████████| 7/7 [00:31<00:00,  4.56s/it]
+Overall Progress:  25%|██▌       | 18/71 [09:24<29:03, 32.89s/it]
+Processing Tx421_TMA014:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA014:  12%|█▎        | 1/8 [00:16<01:52, 16.07s/it][A
+Processing Tx421_TMA014:  25%|██▌       | 2/8 [00:17<00:44,  7.46s/it][A
+Processing Tx421_TMA014:  38%|███▊      | 3/8 [00:18<00:23,  4.66s/it][A
+Processing Tx421_TMA014:  50%|█████     | 4/8 [00:20<00:13,  3.34s/it][A
+Processing Tx421_TMA014:  62%|██████▎   | 5/8 [00:30<00:17,  5.82s/it][A
+Processing Tx421_TMA014:  75%|███████▌  | 6/8 [00:33<00:10,  5.04s/it][A
+Processing Tx421_TMA014:  88%|████████▊ | 7/8 [00:35<00:03,  3.82s/it][A
+Processing Tx421_TMA014: 100%|██████████| 8/8 [00:36<00:00,  3.00s/it][AProcessing Tx421_TMA014: 100%|██████████| 8/8 [00:36<00:00,  4.58s/it]
+Overall Progress:  27%|██▋       | 19/71 [10:01<29:41, 34.26s/it]
+Processing Tx421_TMA014:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA014:  12%|█▎        | 1/8 [00:14<01:44, 14.99s/it][A
+Processing Tx421_TMA014:  25%|██▌       | 2/8 [00:16<00:41,  6.95s/it][A
+Processing Tx421_TMA014:  38%|███▊      | 3/8 [00:17<00:21,  4.38s/it][A
+Processing Tx421_TMA014:  50%|█████     | 4/8 [00:18<00:12,  3.17s/it][A
+Processing Tx421_TMA014:  62%|██████▎   | 5/8 [00:28<00:16,  5.46s/it][A
+Processing Tx421_TMA014:  75%|███████▌  | 6/8 [00:29<00:08,  4.05s/it][A
+Processing Tx421_TMA014:  88%|████████▊ | 7/8 [00:31<00:03,  3.16s/it][A
+Processing Tx421_TMA014: 100%|██████████| 8/8 [00:32<00:00,  2.47s/it][AProcessing Tx421_TMA014: 100%|██████████| 8/8 [00:32<00:00,  4.01s/it]
+Overall Progress:  28%|██▊       | 20/71 [10:33<28:36, 33.66s/it]
+Processing Tx421_TMA015:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA015:  12%|█▎        | 1/8 [00:16<01:56, 16.71s/it][A
+Processing Tx421_TMA015:  25%|██▌       | 2/8 [00:18<00:45,  7.66s/it][A
+Processing Tx421_TMA015:  38%|███▊      | 3/8 [00:19<00:23,  4.76s/it][A
+Processing Tx421_TMA015:  50%|█████     | 4/8 [00:21<00:14,  3.55s/it][A
+Processing Tx421_TMA015:  62%|██████▎   | 5/8 [00:30<00:17,  5.71s/it][A
+Processing Tx421_TMA015:  75%|███████▌  | 6/8 [00:31<00:08,  4.22s/it][A
+Processing Tx421_TMA015:  88%|████████▊ | 7/8 [00:33<00:03,  3.28s/it][A
+Processing Tx421_TMA015: 100%|██████████| 8/8 [00:34<00:00,  2.49s/it][AProcessing Tx421_TMA015: 100%|██████████| 8/8 [00:34<00:00,  4.26s/it]
+Overall Progress:  30%|██▉       | 21/71 [11:09<28:39, 34.40s/it]
+Processing Tx421_TMA015:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA015:  12%|█▎        | 1/8 [00:15<01:47, 15.40s/it][A
+Processing Tx421_TMA015:  25%|██▌       | 2/8 [00:16<00:42,  7.12s/it][A
+Processing Tx421_TMA015:  38%|███▊      | 3/8 [00:18<00:22,  4.47s/it][A
+Processing Tx421_TMA015:  50%|█████     | 4/8 [00:19<00:12,  3.23s/it][A
+Processing Tx421_TMA015:  62%|██████▎   | 5/8 [00:29<00:16,  5.63s/it][A
+Processing Tx421_TMA015:  75%|███████▌  | 6/8 [00:30<00:08,  4.17s/it][A
+Processing Tx421_TMA015:  88%|████████▊ | 7/8 [00:31<00:03,  3.24s/it][A
+Processing Tx421_TMA015: 100%|██████████| 8/8 [00:32<00:00,  2.47s/it][AProcessing Tx421_TMA015: 100%|██████████| 8/8 [00:32<00:00,  4.09s/it]
+Overall Progress:  31%|███       | 22/71 [11:42<27:43, 33.95s/it]
+Processing Tx421_TMA016:   0%|          | 0/9 [00:00<?, ?it/s][A
+Processing Tx421_TMA016:  11%|█         | 1/9 [00:15<02:03, 15.41s/it][A
+Processing Tx421_TMA016:  22%|██▏       | 2/9 [00:16<00:49,  7.12s/it][A
+Processing Tx421_TMA016:  33%|███▎      | 3/9 [00:18<00:26,  4.47s/it][A
+Processing Tx421_TMA016:  44%|████▍     | 4/9 [00:19<00:16,  3.23s/it][A
+Processing Tx421_TMA016:  56%|█████▌    | 5/9 [00:29<00:22,  5.55s/it][A
+Processing Tx421_TMA016:  67%|██████▋   | 6/9 [00:30<00:12,  4.17s/it][A
+Processing Tx421_TMA016:  78%|███████▊  | 7/9 [00:31<00:06,  3.24s/it][A
+Processing Tx421_TMA016:  89%|████████▉ | 8/9 [00:33<00:02,  2.63s/it][A
+Processing Tx421_TMA016: 100%|██████████| 9/9 [00:33<00:00,  1.92s/it][AProcessing Tx421_TMA016: 100%|██████████| 9/9 [00:33<00:00,  3.73s/it]
+Overall Progress:  32%|███▏      | 23/71 [12:17<27:15, 34.08s/it]
+Processing Tx421_TMA016:   0%|          | 0/9 [00:00<?, ?it/s][A
+Processing Tx421_TMA016:  11%|█         | 1/9 [00:14<01:59, 14.91s/it][A
+Processing Tx421_TMA016:  22%|██▏       | 2/9 [00:16<00:48,  6.92s/it][A
+Processing Tx421_TMA016:  33%|███▎      | 3/9 [00:17<00:26,  4.36s/it][A
+Processing Tx421_TMA016:  44%|████▍     | 4/9 [00:18<00:15,  3.16s/it][A
+Processing Tx421_TMA016:  56%|█████▌    | 5/9 [00:29<00:22,  5.72s/it][A
+Processing Tx421_TMA016:  67%|██████▋   | 6/9 [00:30<00:13,  4.34s/it][A
+Processing Tx421_TMA016:  78%|███████▊  | 7/9 [00:32<00:06,  3.35s/it][A
+Processing Tx421_TMA016:  89%|████████▉ | 8/9 [00:33<00:02,  2.71s/it][A
+Processing Tx421_TMA016: 100%|██████████| 9/9 [00:33<00:00,  1.98s/it][AProcessing Tx421_TMA016: 100%|██████████| 9/9 [00:33<00:00,  3.76s/it]
+Overall Progress:  34%|███▍      | 24/71 [12:51<26:40, 34.06s/it]
+Processing Tx421_TMA017:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA017:  14%|█▍        | 1/7 [00:15<01:33, 15.65s/it][A
+Processing Tx421_TMA017:  29%|██▊       | 2/7 [00:16<00:36,  7.22s/it][A
+Processing Tx421_TMA017:  43%|████▎     | 3/7 [00:18<00:18,  4.53s/it][A
+Processing Tx421_TMA017:  57%|█████▋    | 4/7 [00:19<00:09,  3.26s/it][A
+Processing Tx421_TMA017:  71%|███████▏  | 5/7 [00:29<00:11,  5.72s/it][A
+Processing Tx421_TMA017:  86%|████████▌ | 6/7 [00:31<00:04,  4.22s/it][A
+Processing Tx421_TMA017: 100%|██████████| 7/7 [00:31<00:00,  3.04s/it][AProcessing Tx421_TMA017: 100%|██████████| 7/7 [00:31<00:00,  4.52s/it]
+Overall Progress:  35%|███▌      | 25/71 [13:23<25:42, 33.54s/it]
+Processing Tx421_TMA017:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA017:  14%|█▍        | 1/7 [00:15<01:34, 15.71s/it][A
+Processing Tx421_TMA017:  29%|██▊       | 2/7 [00:17<00:36,  7.24s/it][A
+Processing Tx421_TMA017:  43%|████▎     | 3/7 [00:18<00:18,  4.54s/it][A
+Processing Tx421_TMA017:  57%|█████▋    | 4/7 [00:19<00:09,  3.27s/it][A
+Processing Tx421_TMA017:  71%|███████▏  | 5/7 [00:29<00:11,  5.56s/it][A
+Processing Tx421_TMA017:  86%|████████▌ | 6/7 [00:30<00:04,  4.12s/it][A
+Processing Tx421_TMA017: 100%|██████████| 7/7 [00:31<00:00,  2.97s/it][AProcessing Tx421_TMA017: 100%|██████████| 7/7 [00:31<00:00,  4.46s/it]
+Overall Progress:  37%|███▋      | 26/71 [13:54<24:40, 32.90s/it]
+Processing Tx421_TMA018:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA018:  14%|█▍        | 1/7 [00:16<01:36, 16.10s/it][A
+Processing Tx421_TMA018:  29%|██▊       | 2/7 [00:17<00:37,  7.42s/it][A
+Processing Tx421_TMA018:  43%|████▎     | 3/7 [00:18<00:18,  4.63s/it][A
+Processing Tx421_TMA018:  57%|█████▋    | 4/7 [00:20<00:09,  3.32s/it][A
+Processing Tx421_TMA018:  71%|███████▏  | 5/7 [00:30<00:11,  5.75s/it][A
+Processing Tx421_TMA018:  86%|████████▌ | 6/7 [00:31<00:04,  4.24s/it][A
+Processing Tx421_TMA018: 100%|██████████| 7/7 [00:31<00:00,  2.98s/it][AProcessing Tx421_TMA018: 100%|██████████| 7/7 [00:31<00:00,  4.55s/it]
+Overall Progress:  38%|███▊      | 27/71 [14:27<24:01, 32.76s/it]
+Processing Tx421_TMA018:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA018:  14%|█▍        | 1/7 [00:15<01:34, 15.79s/it][A
+Processing Tx421_TMA018:  29%|██▊       | 2/7 [00:17<00:36,  7.27s/it][A
+Processing Tx421_TMA018:  43%|████▎     | 3/7 [00:18<00:18,  4.56s/it][A
+Processing Tx421_TMA018:  57%|█████▋    | 4/7 [00:19<00:09,  3.28s/it][A
+Processing Tx421_TMA018:  71%|███████▏  | 5/7 [00:29<00:10,  5.45s/it][A
+Processing Tx421_TMA018:  86%|████████▌ | 6/7 [00:30<00:04,  4.05s/it][A
+Processing Tx421_TMA018: 100%|██████████| 7/7 [00:30<00:00,  2.85s/it][AProcessing Tx421_TMA018: 100%|██████████| 7/7 [00:30<00:00,  4.40s/it]
+Overall Progress:  39%|███▉      | 28/71 [14:58<23:05, 32.22s/it]
+Processing Tx421_TMA019:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA019:  14%|█▍        | 1/7 [00:15<01:35, 15.99s/it][A
+Processing Tx421_TMA019:  29%|██▊       | 2/7 [00:17<00:36,  7.36s/it][A
+Processing Tx421_TMA019:  43%|████▎     | 3/7 [00:18<00:18,  4.60s/it][A
+Processing Tx421_TMA019:  57%|█████▋    | 4/7 [00:19<00:09,  3.31s/it][A
+Processing Tx421_TMA019:  71%|███████▏  | 5/7 [00:29<00:10,  5.49s/it][A
+Processing Tx421_TMA019:  86%|████████▌ | 6/7 [00:30<00:04,  4.07s/it][A
+Processing Tx421_TMA019: 100%|██████████| 7/7 [00:31<00:00,  2.92s/it][AProcessing Tx421_TMA019: 100%|██████████| 7/7 [00:31<00:00,  4.45s/it]
+Overall Progress:  41%|████      | 29/71 [15:30<22:28, 32.10s/it]
+Processing Tx421_TMA019:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA019:  14%|█▍        | 1/7 [00:15<01:32, 15.47s/it][A
+Processing Tx421_TMA019:  29%|██▊       | 2/7 [00:16<00:35,  7.14s/it][A
+Processing Tx421_TMA019:  43%|████▎     | 3/7 [00:18<00:17,  4.48s/it][A
+Processing Tx421_TMA019:  57%|█████▋    | 4/7 [00:19<00:09,  3.24s/it][A
+Processing Tx421_TMA019:  71%|███████▏  | 5/7 [00:28<00:10,  5.40s/it][A
+Processing Tx421_TMA019:  86%|████████▌ | 6/7 [00:29<00:04,  4.01s/it][A
+Processing Tx421_TMA019: 100%|██████████| 7/7 [00:30<00:00,  2.88s/it][AProcessing Tx421_TMA019: 100%|██████████| 7/7 [00:30<00:00,  4.36s/it]
+Overall Progress:  42%|████▏     | 30/71 [16:00<21:38, 31.67s/it]
+Processing Tx421_TMA020:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA020:  12%|█▎        | 1/8 [00:15<01:48, 15.53s/it][A
+Processing Tx421_TMA020:  25%|██▌       | 2/8 [00:16<00:43,  7.17s/it][A
+Processing Tx421_TMA020:  38%|███▊      | 3/8 [00:18<00:22,  4.50s/it][A
+Processing Tx421_TMA020:  50%|█████     | 4/8 [00:19<00:12,  3.24s/it][A
+Processing Tx421_TMA020:  62%|██████▎   | 5/8 [00:29<00:16,  5.53s/it][A
+Processing Tx421_TMA020:  75%|███████▌  | 6/8 [00:30<00:08,  4.10s/it][A
+Processing Tx421_TMA020:  88%|████████▊ | 7/8 [00:31<00:03,  3.19s/it][A
+Processing Tx421_TMA020: 100%|██████████| 8/8 [00:32<00:00,  2.29s/it][AProcessing Tx421_TMA020: 100%|██████████| 8/8 [00:32<00:00,  4.01s/it]
+Overall Progress:  44%|████▎     | 31/71 [16:33<21:18, 31.96s/it]
+Processing Tx421_TMA020:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA020:  12%|█▎        | 1/8 [00:14<01:42, 14.60s/it][A
+Processing Tx421_TMA020:  25%|██▌       | 2/8 [00:15<00:40,  6.78s/it][A
+Processing Tx421_TMA020:  38%|███▊      | 3/8 [00:17<00:21,  4.29s/it][A
+Processing Tx421_TMA020:  50%|█████     | 4/8 [00:18<00:12,  3.12s/it][A
+Processing Tx421_TMA020:  62%|██████▎   | 5/8 [00:28<00:16,  5.41s/it][A
+Processing Tx421_TMA020:  75%|███████▌  | 6/8 [00:29<00:08,  4.02s/it][A
+Processing Tx421_TMA020:  88%|████████▊ | 7/8 [00:30<00:03,  3.15s/it][A
+Processing Tx421_TMA020: 100%|██████████| 8/8 [00:31<00:00,  2.25s/it][AProcessing Tx421_TMA020: 100%|██████████| 8/8 [00:31<00:00,  3.88s/it]
+Overall Progress:  45%|████▌     | 32/71 [17:04<20:37, 31.74s/it]
+Processing Tx421_TMA021:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA021:  14%|█▍        | 1/7 [00:16<01:38, 16.37s/it][A
+Processing Tx421_TMA021:  29%|██▊       | 2/7 [00:17<00:37,  7.51s/it][A
+Processing Tx421_TMA021:  43%|████▎     | 3/7 [00:19<00:18,  4.69s/it][A
+Processing Tx421_TMA021:  57%|█████▋    | 4/7 [00:20<00:10,  3.36s/it][A
+Processing Tx421_TMA021:  71%|███████▏  | 5/7 [00:29<00:11,  5.52s/it][A
+Processing Tx421_TMA021:  86%|████████▌ | 6/7 [00:30<00:04,  4.09s/it][A
+Processing Tx421_TMA021: 100%|██████████| 7/7 [00:31<00:00,  3.02s/it][AProcessing Tx421_TMA021: 100%|██████████| 7/7 [00:31<00:00,  4.54s/it]
+Overall Progress:  46%|████▋     | 33/71 [17:37<20:14, 31.95s/it]
+Processing Tx421_TMA021:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA021:  14%|█▍        | 1/7 [00:15<01:32, 15.33s/it][A
+Processing Tx421_TMA021:  29%|██▊       | 2/7 [00:16<00:35,  7.09s/it][A
+Processing Tx421_TMA021:  43%|████▎     | 3/7 [00:17<00:17,  4.46s/it][A
+Processing Tx421_TMA021:  57%|█████▋    | 4/7 [00:19<00:09,  3.22s/it][A
+Processing Tx421_TMA021:  71%|███████▏  | 5/7 [00:28<00:10,  5.45s/it][A
+Processing Tx421_TMA021:  86%|████████▌ | 6/7 [00:30<00:04,  4.05s/it][A
+Processing Tx421_TMA021: 100%|██████████| 7/7 [00:30<00:00,  2.99s/it][AProcessing Tx421_TMA021: 100%|██████████| 7/7 [00:30<00:00,  4.41s/it]
+Overall Progress:  48%|████▊     | 34/71 [18:08<19:31, 31.67s/it]
+Processing Tx421_TMA022:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA022:  14%|█▍        | 1/7 [00:15<01:34, 15.71s/it][A
+Processing Tx421_TMA022:  29%|██▊       | 2/7 [00:17<00:36,  7.24s/it][A
+Processing Tx421_TMA022:  43%|████▎     | 3/7 [00:18<00:18,  4.54s/it][A
+Processing Tx421_TMA022:  57%|█████▋    | 4/7 [00:19<00:09,  3.27s/it][A
+Processing Tx421_TMA022:  71%|███████▏  | 5/7 [00:29<00:11,  5.70s/it][A
+Processing Tx421_TMA022:  86%|████████▌ | 6/7 [00:30<00:04,  4.21s/it][A
+Processing Tx421_TMA022: 100%|██████████| 7/7 [00:32<00:00,  3.23s/it][AProcessing Tx421_TMA022: 100%|██████████| 7/7 [00:32<00:00,  4.60s/it]
+Overall Progress:  49%|████▉     | 35/71 [18:40<19:13, 32.04s/it]
+Processing Tx421_TMA022:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA022:  14%|█▍        | 1/7 [00:15<01:33, 15.56s/it][A
+Processing Tx421_TMA022:  29%|██▊       | 2/7 [00:16<00:35,  7.18s/it][A
+Processing Tx421_TMA022:  43%|████▎     | 3/7 [00:18<00:18,  4.50s/it][A
+Processing Tx421_TMA022:  57%|█████▋    | 4/7 [00:19<00:09,  3.25s/it][A
+Processing Tx421_TMA022:  71%|███████▏  | 5/7 [00:29<00:11,  5.57s/it][A
+Processing Tx421_TMA022:  86%|████████▌ | 6/7 [00:30<00:04,  4.13s/it][A
+Processing Tx421_TMA022: 100%|██████████| 7/7 [00:31<00:00,  3.17s/it][AProcessing Tx421_TMA022: 100%|██████████| 7/7 [00:31<00:00,  4.53s/it]
+Overall Progress:  51%|█████     | 36/71 [19:12<18:40, 32.00s/it]
+Processing Tx421_TMA023:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA023:  12%|█▎        | 1/8 [00:15<01:48, 15.55s/it][A
+Processing Tx421_TMA023:  25%|██▌       | 2/8 [00:16<00:43,  7.18s/it][A
+Processing Tx421_TMA023:  38%|███▊      | 3/8 [00:18<00:22,  4.50s/it][A
+Processing Tx421_TMA023:  50%|█████     | 4/8 [00:19<00:12,  3.25s/it][A
+Processing Tx421_TMA023:  62%|██████▎   | 5/8 [00:29<00:17,  5.72s/it][A
+Processing Tx421_TMA023:  75%|███████▌  | 6/8 [00:30<00:08,  4.23s/it][A
+Processing Tx421_TMA023:  88%|████████▊ | 7/8 [00:32<00:03,  3.28s/it][A
+Processing Tx421_TMA023: 100%|██████████| 8/8 [00:32<00:00,  2.45s/it][AProcessing Tx421_TMA023: 100%|██████████| 8/8 [00:32<00:00,  4.12s/it]
+Overall Progress:  52%|█████▏    | 37/71 [19:46<18:24, 32.50s/it]
+Processing Tx421_TMA023:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA023:  12%|█▎        | 1/8 [00:14<01:43, 14.76s/it][A
+Processing Tx421_TMA023:  25%|██▌       | 2/8 [00:16<00:41,  6.85s/it][A
+Processing Tx421_TMA023:  38%|███▊      | 3/8 [00:17<00:21,  4.33s/it][A
+Processing Tx421_TMA023:  50%|█████     | 4/8 [00:18<00:12,  3.14s/it][A
+Processing Tx421_TMA023:  62%|██████▎   | 5/8 [00:28<00:16,  5.62s/it][A
+Processing Tx421_TMA023:  75%|███████▌  | 6/8 [00:30<00:08,  4.16s/it][A
+Processing Tx421_TMA023:  88%|████████▊ | 7/8 [00:31<00:03,  3.23s/it][A
+Processing Tx421_TMA023: 100%|██████████| 8/8 [00:32<00:00,  2.41s/it][AProcessing Tx421_TMA023: 100%|██████████| 8/8 [00:32<00:00,  4.00s/it]
+Overall Progress:  54%|█████▎    | 38/71 [20:18<17:49, 32.41s/it]
+Processing Tx421_TMA024:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA024:  12%|█▎        | 1/8 [00:15<01:50, 15.86s/it][A
+Processing Tx421_TMA024:  25%|██▌       | 2/8 [00:17<00:43,  7.30s/it][A
+Processing Tx421_TMA024:  38%|███▊      | 3/8 [00:18<00:22,  4.57s/it][A
+Processing Tx421_TMA024:  50%|█████     | 4/8 [00:19<00:13,  3.29s/it][A
+Processing Tx421_TMA024:  62%|██████▎   | 5/8 [00:29<00:16,  5.66s/it][A
+Processing Tx421_TMA024:  75%|███████▌  | 6/8 [00:31<00:08,  4.19s/it][A
+Processing Tx421_TMA024:  88%|████████▊ | 7/8 [00:32<00:03,  3.25s/it][A
+Processing Tx421_TMA024: 100%|██████████| 8/8 [00:33<00:00,  2.45s/it][AProcessing Tx421_TMA024: 100%|██████████| 8/8 [00:33<00:00,  4.13s/it]
+Overall Progress:  55%|█████▍    | 39/71 [20:52<17:30, 32.82s/it]
+Processing Tx421_TMA024:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA024:  12%|█▎        | 1/8 [00:14<01:44, 14.99s/it][A
+Processing Tx421_TMA024:  25%|██▌       | 2/8 [00:16<00:41,  6.95s/it][A
+Processing Tx421_TMA024:  38%|███▊      | 3/8 [00:17<00:21,  4.38s/it][A
+Processing Tx421_TMA024:  50%|█████     | 4/8 [00:18<00:12,  3.17s/it][A
+Processing Tx421_TMA024:  62%|██████▎   | 5/8 [00:28<00:16,  5.62s/it][A
+Processing Tx421_TMA024:  75%|███████▌  | 6/8 [00:30<00:08,  4.16s/it][A
+Processing Tx421_TMA024:  88%|████████▊ | 7/8 [00:31<00:03,  3.23s/it][A
+Processing Tx421_TMA024: 100%|██████████| 8/8 [00:32<00:00,  2.43s/it][AProcessing Tx421_TMA024: 100%|██████████| 8/8 [00:32<00:00,  4.04s/it]
+Overall Progress:  56%|█████▋    | 40/71 [21:25<16:54, 32.71s/it]
+Processing Tx421_TMA025:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA025:  14%|█▍        | 1/7 [00:16<01:36, 16.08s/it][A
+Processing Tx421_TMA025:  29%|██▊       | 2/7 [00:17<00:36,  7.39s/it][A
+Processing Tx421_TMA025:  43%|████▎     | 3/7 [00:18<00:18,  4.62s/it][A
+Processing Tx421_TMA025:  57%|█████▋    | 4/7 [00:20<00:09,  3.32s/it][A
+Processing Tx421_TMA025:  71%|███████▏  | 5/7 [00:29<00:11,  5.57s/it][A
+Processing Tx421_TMA025:  86%|████████▌ | 6/7 [00:30<00:04,  4.12s/it][A
+Processing Tx421_TMA025: 100%|██████████| 7/7 [00:32<00:00,  3.13s/it][AProcessing Tx421_TMA025: 100%|██████████| 7/7 [00:32<00:00,  4.57s/it]
+Overall Progress:  58%|█████▊    | 41/71 [21:57<16:20, 32.70s/it]
+Processing Tx421_TMA025:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA025:  14%|█▍        | 1/7 [00:14<01:29, 14.94s/it][A
+Processing Tx421_TMA025:  29%|██▊       | 2/7 [00:16<00:34,  6.93s/it][A
+Processing Tx421_TMA025:  43%|████▎     | 3/7 [00:17<00:17,  4.37s/it][A
+Processing Tx421_TMA025:  57%|█████▋    | 4/7 [00:18<00:09,  3.17s/it][A
+Processing Tx421_TMA025:  71%|███████▏  | 5/7 [00:28<00:10,  5.38s/it][A
+Processing Tx421_TMA025:  86%|████████▌ | 6/7 [00:29<00:04,  4.00s/it][A
+Processing Tx421_TMA025: 100%|██████████| 7/7 [00:30<00:00,  3.05s/it][AProcessing Tx421_TMA025: 100%|██████████| 7/7 [00:30<00:00,  4.37s/it]
+Overall Progress:  59%|█████▉    | 42/71 [22:28<15:31, 32.13s/it]
+Processing Tx421_TMA027:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA027:  12%|█▎        | 1/8 [00:16<01:52, 16.10s/it][A
+Processing Tx421_TMA027:  25%|██▌       | 2/8 [00:17<00:44,  7.40s/it][A
+Processing Tx421_TMA027:  38%|███▊      | 3/8 [00:18<00:23,  4.63s/it][A
+Processing Tx421_TMA027:  50%|█████     | 4/8 [00:20<00:13,  3.32s/it][A
+Processing Tx421_TMA027:  62%|██████▎   | 5/8 [00:31<00:18,  6.08s/it][A
+Processing Tx421_TMA027:  75%|███████▌  | 6/8 [00:32<00:08,  4.46s/it][A
+Processing Tx421_TMA027:  88%|████████▊ | 7/8 [00:33<00:03,  3.43s/it][A
+Processing Tx421_TMA027: 100%|██████████| 8/8 [00:35<00:00,  2.79s/it][AProcessing Tx421_TMA027: 100%|██████████| 8/8 [00:35<00:00,  4.39s/it]
+Overall Progress:  61%|██████    | 43/71 [23:04<15:29, 33.21s/it]
+Processing Tx421_TMA027:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA027:  12%|█▎        | 1/8 [00:14<01:44, 14.90s/it][A
+Processing Tx421_TMA027:  25%|██▌       | 2/8 [00:16<00:41,  6.91s/it][A
+Processing Tx421_TMA027:  38%|███▊      | 3/8 [00:19<00:26,  5.27s/it][A
+Processing Tx421_TMA027:  50%|█████     | 4/8 [00:20<00:14,  3.71s/it][A
+Processing Tx421_TMA027:  62%|██████▎   | 5/8 [00:28<00:15,  5.08s/it][A
+Processing Tx421_TMA027:  75%|███████▌  | 6/8 [00:29<00:07,  3.80s/it][A
+Processing Tx421_TMA027:  88%|████████▊ | 7/8 [00:31<00:02,  2.99s/it][A
+Processing Tx421_TMA027: 100%|██████████| 8/8 [00:32<00:00,  2.50s/it][AProcessing Tx421_TMA027: 100%|██████████| 8/8 [00:32<00:00,  4.05s/it]
+Overall Progress:  62%|██████▏   | 44/71 [23:36<14:51, 33.03s/it]
+Processing Tx421_TMA028:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA028:  12%|█▎        | 1/8 [00:15<01:48, 15.52s/it][A
+Processing Tx421_TMA028:  25%|██▌       | 2/8 [00:16<00:43,  7.17s/it][A
+Processing Tx421_TMA028:  38%|███▊      | 3/8 [00:18<00:22,  4.50s/it][A
+Processing Tx421_TMA028:  50%|█████     | 4/8 [00:19<00:12,  3.24s/it][A
+Processing Tx421_TMA028:  62%|██████▎   | 5/8 [00:29<00:17,  5.85s/it][A
+Processing Tx421_TMA028:  75%|███████▌  | 6/8 [00:31<00:08,  4.31s/it][A
+Processing Tx421_TMA028:  88%|████████▊ | 7/8 [00:32<00:03,  3.33s/it][A
+Processing Tx421_TMA028: 100%|██████████| 8/8 [00:33<00:00,  2.60s/it][AProcessing Tx421_TMA028: 100%|██████████| 8/8 [00:33<00:00,  4.20s/it]
+Overall Progress:  63%|██████▎   | 45/71 [24:11<14:28, 33.42s/it]
+Processing Tx421_TMA028:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA028:  12%|█▎        | 1/8 [00:15<01:50, 15.81s/it][A
+Processing Tx421_TMA028:  25%|██▌       | 2/8 [00:17<00:43,  7.29s/it][A
+Processing Tx421_TMA028:  38%|███▊      | 3/8 [00:18<00:22,  4.56s/it][A
+Processing Tx421_TMA028:  50%|█████     | 4/8 [00:19<00:13,  3.28s/it][A
+Processing Tx421_TMA028:  62%|██████▎   | 5/8 [00:30<00:18,  6.02s/it][A
+Processing Tx421_TMA028:  75%|███████▌  | 6/8 [00:31<00:08,  4.42s/it][A
+Processing Tx421_TMA028:  88%|████████▊ | 7/8 [00:33<00:03,  3.41s/it][A
+Processing Tx421_TMA028: 100%|██████████| 8/8 [00:34<00:00,  2.65s/it][AProcessing Tx421_TMA028: 100%|██████████| 8/8 [00:34<00:00,  4.29s/it]
+Overall Progress:  65%|██████▍   | 46/71 [24:45<14:03, 33.75s/it]
+Processing Tx421_TMA029:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA029:  12%|█▎        | 1/8 [00:16<01:52, 16.03s/it][A
+Processing Tx421_TMA029:  25%|██▌       | 2/8 [00:17<00:44,  7.38s/it][A
+Processing Tx421_TMA029:  38%|███▊      | 3/8 [00:18<00:23,  4.61s/it][A
+Processing Tx421_TMA029:  50%|█████     | 4/8 [00:19<00:13,  3.31s/it][A
+Processing Tx421_TMA029:  62%|██████▎   | 5/8 [00:31<00:18,  6.21s/it][A
+Processing Tx421_TMA029:  75%|███████▌  | 6/8 [00:32<00:09,  4.55s/it][A
+Processing Tx421_TMA029:  88%|████████▊ | 7/8 [00:33<00:03,  3.49s/it][A
+Processing Tx421_TMA029: 100%|██████████| 8/8 [00:35<00:00,  2.72s/it][AProcessing Tx421_TMA029: 100%|██████████| 8/8 [00:35<00:00,  4.38s/it]
+Overall Progress:  66%|██████▌   | 47/71 [25:21<13:43, 34.33s/it]
+Processing Tx421_TMA029:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA029:  12%|█▎        | 1/8 [00:16<01:52, 16.03s/it][A
+Processing Tx421_TMA029:  25%|██▌       | 2/8 [00:17<00:44,  7.37s/it][A
+Processing Tx421_TMA029:  38%|███▊      | 3/8 [00:18<00:23,  4.61s/it][A
+Processing Tx421_TMA029:  50%|█████     | 4/8 [00:19<00:13,  3.31s/it][A
+Processing Tx421_TMA029:  62%|██████▎   | 5/8 [00:31<00:18,  6.09s/it][A
+Processing Tx421_TMA029:  75%|███████▌  | 6/8 [00:32<00:08,  4.47s/it][A
+Processing Tx421_TMA029:  88%|████████▊ | 7/8 [00:33<00:03,  3.44s/it][A
+Processing Tx421_TMA029: 100%|██████████| 8/8 [00:34<00:00,  2.69s/it][AProcessing Tx421_TMA029: 100%|██████████| 8/8 [00:34<00:00,  4.34s/it]
+Overall Progress:  68%|██████▊   | 48/71 [25:56<13:13, 34.51s/it]
+Processing Tx421_TMA030:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA030:  12%|█▎        | 1/8 [00:16<01:55, 16.50s/it][A
+Processing Tx421_TMA030:  25%|██▌       | 2/8 [00:17<00:45,  7.57s/it][A
+Processing Tx421_TMA030:  38%|███▊      | 3/8 [00:19<00:23,  4.71s/it][A
+Processing Tx421_TMA030:  50%|█████     | 4/8 [00:20<00:13,  3.37s/it][A
+Processing Tx421_TMA030:  62%|██████▎   | 5/8 [00:30<00:17,  5.92s/it][A
+Processing Tx421_TMA030:  75%|███████▌  | 6/8 [00:32<00:08,  4.35s/it][A
+Processing Tx421_TMA030:  88%|████████▊ | 7/8 [00:33<00:03,  3.36s/it][A
+Processing Tx421_TMA030: 100%|██████████| 8/8 [00:34<00:00,  2.60s/it][AProcessing Tx421_TMA030: 100%|██████████| 8/8 [00:34<00:00,  4.31s/it]
+Overall Progress:  69%|██████▉   | 49/71 [26:31<12:43, 34.69s/it]
+Processing Tx421_TMA030:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA030:  12%|█▎        | 1/8 [00:15<01:50, 15.84s/it][A
+Processing Tx421_TMA030:  25%|██▌       | 2/8 [00:17<00:43,  7.30s/it][A
+Processing Tx421_TMA030:  38%|███▊      | 3/8 [00:18<00:22,  4.57s/it][A
+Processing Tx421_TMA030:  50%|█████     | 4/8 [00:19<00:13,  3.29s/it][A
+Processing Tx421_TMA030:  62%|██████▎   | 5/8 [00:30<00:17,  5.84s/it][A
+Processing Tx421_TMA030:  75%|███████▌  | 6/8 [00:31<00:08,  4.30s/it][A
+Processing Tx421_TMA030:  88%|████████▊ | 7/8 [00:32<00:03,  3.33s/it][A
+Processing Tx421_TMA030: 100%|██████████| 8/8 [00:33<00:00,  2.58s/it][AProcessing Tx421_TMA030: 100%|██████████| 8/8 [00:33<00:00,  4.22s/it]
+Overall Progress:  70%|███████   | 50/71 [27:05<12:03, 34.47s/it]
+Processing Tx421_TMA031:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA031:  12%|█▎        | 1/8 [00:15<01:48, 15.55s/it][A
+Processing Tx421_TMA031:  25%|██▌       | 2/8 [00:16<00:43,  7.18s/it][A
+Processing Tx421_TMA031:  38%|███▊      | 3/8 [00:18<00:22,  4.50s/it][A
+Processing Tx421_TMA031:  50%|█████     | 4/8 [00:19<00:12,  3.25s/it][A
+Processing Tx421_TMA031:  62%|██████▎   | 5/8 [00:29<00:17,  5.72s/it][A
+Processing Tx421_TMA031:  75%|███████▌  | 6/8 [00:30<00:08,  4.23s/it][A
+Processing Tx421_TMA031:  88%|████████▊ | 7/8 [00:32<00:03,  3.28s/it][A
+Processing Tx421_TMA031: 100%|██████████| 8/8 [00:32<00:00,  2.44s/it][AProcessing Tx421_TMA031: 100%|██████████| 8/8 [00:32<00:00,  4.12s/it]
+Overall Progress:  72%|███████▏  | 51/71 [27:38<11:24, 34.21s/it]
+Processing Tx421_TMA031:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA031:  12%|█▎        | 1/8 [00:15<01:45, 15.12s/it][A
+Processing Tx421_TMA031:  25%|██▌       | 2/8 [00:16<00:42,  7.00s/it][A
+Processing Tx421_TMA031:  38%|███▊      | 3/8 [00:17<00:22,  4.41s/it][A
+Processing Tx421_TMA031:  50%|█████     | 4/8 [00:19<00:12,  3.19s/it][A
+Processing Tx421_TMA031:  62%|██████▎   | 5/8 [00:28<00:16,  5.48s/it][A
+Processing Tx421_TMA031:  75%|███████▌  | 6/8 [00:29<00:08,  4.06s/it][A
+Processing Tx421_TMA031:  88%|████████▊ | 7/8 [00:31<00:03,  3.17s/it][A
+Processing Tx421_TMA031: 100%|██████████| 8/8 [00:31<00:00,  2.37s/it][AProcessing Tx421_TMA031: 100%|██████████| 8/8 [00:31<00:00,  3.99s/it]
+Overall Progress:  73%|███████▎  | 52/71 [28:11<10:37, 33.58s/it]
+Processing Tx421_TMA032:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA032:  12%|█▎        | 1/8 [00:14<01:43, 14.73s/it][A
+Processing Tx421_TMA032:  25%|██▌       | 2/8 [00:16<00:41,  6.84s/it][A
+Processing Tx421_TMA032:  38%|███▊      | 3/8 [00:17<00:21,  4.32s/it][A
+Processing Tx421_TMA032:  50%|█████     | 4/8 [00:18<00:12,  3.14s/it][A
+Processing Tx421_TMA032:  62%|██████▎   | 5/8 [00:28<00:16,  5.40s/it][A
+Processing Tx421_TMA032:  75%|███████▌  | 6/8 [00:29<00:08,  4.01s/it][A
+Processing Tx421_TMA032:  88%|████████▊ | 7/8 [00:30<00:03,  3.13s/it][A
+Processing Tx421_TMA032: 100%|██████████| 8/8 [00:31<00:00,  2.45s/it][AProcessing Tx421_TMA032: 100%|██████████| 8/8 [00:31<00:00,  3.96s/it]
+Overall Progress:  75%|███████▍  | 53/71 [28:43<09:57, 33.20s/it]
+Processing Tx421_TMA032:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA032:  12%|█▎        | 1/8 [00:14<01:42, 14.67s/it][A
+Processing Tx421_TMA032:  25%|██▌       | 2/8 [00:15<00:40,  6.82s/it][A
+Processing Tx421_TMA032:  38%|███▊      | 3/8 [00:17<00:21,  4.31s/it][A
+Processing Tx421_TMA032:  50%|█████     | 4/8 [00:18<00:12,  3.13s/it][A
+Processing Tx421_TMA032:  62%|██████▎   | 5/8 [00:28<00:16,  5.66s/it][A
+Processing Tx421_TMA032:  75%|███████▌  | 6/8 [00:30<00:08,  4.18s/it][A
+Processing Tx421_TMA032:  88%|████████▊ | 7/8 [00:31<00:03,  3.25s/it][A
+Processing Tx421_TMA032: 100%|██████████| 8/8 [00:32<00:00,  2.53s/it][AProcessing Tx421_TMA032: 100%|██████████| 8/8 [00:32<00:00,  4.05s/it]
+Overall Progress:  76%|███████▌  | 54/71 [29:15<09:21, 33.01s/it]
+Processing Tx421_TMA034:   0%|          | 0/6 [00:00<?, ?it/s][A
+Processing Tx421_TMA034:  17%|█▋        | 1/6 [00:15<01:19, 15.92s/it][A
+Processing Tx421_TMA034:  33%|███▎      | 2/6 [00:17<00:29,  7.33s/it][A
+Processing Tx421_TMA034:  50%|█████     | 3/6 [00:18<00:13,  4.59s/it][A
+Processing Tx421_TMA034:  67%|██████▋   | 4/6 [00:19<00:06,  3.30s/it][A
+Processing Tx421_TMA034:  83%|████████▎ | 5/6 [00:29<00:05,  5.51s/it][A
+Processing Tx421_TMA034: 100%|██████████| 6/6 [00:29<00:00,  3.83s/it][AProcessing Tx421_TMA034: 100%|██████████| 6/6 [00:29<00:00,  4.98s/it]
+Overall Progress:  77%|███████▋  | 55/71 [29:46<08:35, 32.24s/it]
+Processing Tx421_TMA034:   0%|          | 0/6 [00:00<?, ?it/s][A
+Processing Tx421_TMA034:  17%|█▋        | 1/6 [00:15<01:17, 15.42s/it][A
+Processing Tx421_TMA034:  33%|███▎      | 2/6 [00:16<00:28,  7.12s/it][A
+Processing Tx421_TMA034:  50%|█████     | 3/6 [00:18<00:13,  4.47s/it][A
+Processing Tx421_TMA034:  67%|██████▋   | 4/6 [00:19<00:06,  3.23s/it][A
+Processing Tx421_TMA034:  83%|████████▎ | 5/6 [00:28<00:05,  5.36s/it][A
+Processing Tx421_TMA034: 100%|██████████| 6/6 [00:29<00:00,  3.71s/it][AProcessing Tx421_TMA034: 100%|██████████| 6/6 [00:29<00:00,  4.84s/it]
+Overall Progress:  79%|███████▉  | 56/71 [30:15<07:49, 31.33s/it]
+Processing Tx421_TMA038:   0%|          | 0/4 [00:00<?, ?it/s][A
+Processing Tx421_TMA038:  25%|██▌       | 1/4 [00:15<00:47, 15.67s/it][A
+Processing Tx421_TMA038:  50%|█████     | 2/4 [00:16<00:14,  7.23s/it][A
+Processing Tx421_TMA038:  75%|███████▌  | 3/4 [00:18<00:04,  4.53s/it][A
+Processing Tx421_TMA038: 100%|██████████| 4/4 [00:19<00:00,  3.18s/it][AProcessing Tx421_TMA038: 100%|██████████| 4/4 [00:19<00:00,  4.86s/it]
+Overall Progress:  80%|████████  | 57/71 [30:35<06:31, 27.95s/it]
+Processing Tx421_TMA038:   0%|          | 0/4 [00:00<?, ?it/s][A
+Processing Tx421_TMA038:  25%|██▌       | 1/4 [00:15<00:46, 15.60s/it][A
+Processing Tx421_TMA038:  50%|█████     | 2/4 [00:16<00:14,  7.20s/it][A
+Processing Tx421_TMA038:  75%|███████▌  | 3/4 [00:18<00:04,  4.51s/it][A
+Processing Tx421_TMA038: 100%|██████████| 4/4 [00:19<00:00,  3.17s/it][AProcessing Tx421_TMA038: 100%|██████████| 4/4 [00:19<00:00,  4.84s/it]
+Overall Progress:  82%|████████▏ | 58/71 [30:55<05:30, 25.41s/it]
+Processing Tx421_TMA039:   0%|          | 0/5 [00:00<?, ?it/s][A
+Processing Tx421_TMA039:  20%|██        | 1/5 [00:15<01:00, 15.06s/it][A
+Processing Tx421_TMA039:  40%|████      | 2/5 [00:17<00:22,  7.35s/it][A
+Processing Tx421_TMA039:  60%|██████    | 3/5 [00:18<00:09,  4.60s/it][A
+Processing Tx421_TMA039:  80%|████████  | 4/5 [00:19<00:03,  3.30s/it][A
+Processing Tx421_TMA039: 100%|██████████| 5/5 [00:26<00:00,  4.68s/it][AProcessing Tx421_TMA039: 100%|██████████| 5/5 [00:26<00:00,  5.35s/it]
+Overall Progress:  83%|████████▎ | 59/71 [31:22<05:12, 26.06s/it]
+Processing Tx421_TMA039:   0%|          | 0/5 [00:00<?, ?it/s][A
+Processing Tx421_TMA039:  20%|██        | 1/5 [00:14<00:59, 14.84s/it][A
+Processing Tx421_TMA039:  40%|████      | 2/5 [00:16<00:20,  6.88s/it][A
+Processing Tx421_TMA039:  60%|██████    | 3/5 [00:17<00:08,  4.34s/it][A
+Processing Tx421_TMA039:  80%|████████  | 4/5 [00:18<00:03,  3.15s/it][A
+Processing Tx421_TMA039: 100%|██████████| 5/5 [00:26<00:00,  4.67s/it][AProcessing Tx421_TMA039: 100%|██████████| 5/5 [00:26<00:00,  5.23s/it]
+Overall Progress:  85%|████████▍ | 60/71 [31:49<04:47, 26.14s/it]
+Processing Tx421_TMA056:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA056:  12%|█▎        | 1/8 [00:16<01:58, 16.90s/it][A
+Processing Tx421_TMA056:  25%|██▌       | 2/8 [00:18<00:46,  7.73s/it][A
+Processing Tx421_TMA056:  38%|███▊      | 3/8 [00:19<00:24,  4.80s/it][A
+Processing Tx421_TMA056:  50%|█████     | 4/8 [00:20<00:13,  3.43s/it][A
+Processing Tx421_TMA056:  62%|██████▎   | 5/8 [00:32<00:18,  6.23s/it][A
+Processing Tx421_TMA056:  75%|███████▌  | 6/8 [00:33<00:09,  4.61s/it][A
+Processing Tx421_TMA056:  88%|████████▊ | 7/8 [00:34<00:03,  3.53s/it][A
+Processing Tx421_TMA056: 100%|██████████| 8/8 [00:35<00:00,  2.65s/it][AProcessing Tx421_TMA056: 100%|██████████| 8/8 [00:35<00:00,  4.45s/it]
+Overall Progress:  86%|████████▌ | 61/71 [32:25<04:53, 29.34s/it]
+Processing Tx421_TMA056:   0%|          | 0/8 [00:00<?, ?it/s][A
+Processing Tx421_TMA056:  12%|█▎        | 1/8 [00:14<01:43, 14.84s/it][A
+Processing Tx421_TMA056:  25%|██▌       | 2/8 [00:16<00:41,  6.89s/it][A
+Processing Tx421_TMA056:  38%|███▊      | 3/8 [00:17<00:21,  4.35s/it][A
+Processing Tx421_TMA056:  50%|█████     | 4/8 [00:18<00:12,  3.15s/it][A
+Processing Tx421_TMA056:  62%|██████▎   | 5/8 [00:28<00:16,  5.51s/it][A
+Processing Tx421_TMA056:  75%|███████▌  | 6/8 [00:29<00:08,  4.09s/it][A
+Processing Tx421_TMA056:  88%|████████▊ | 7/8 [00:31<00:03,  3.18s/it][A
+Processing Tx421_TMA056: 100%|██████████| 8/8 [00:31<00:00,  2.42s/it][AProcessing Tx421_TMA056: 100%|██████████| 8/8 [00:31<00:00,  3.99s/it]
+Overall Progress:  87%|████████▋ | 62/71 [32:57<04:31, 30.18s/it]
+Processing Tx421_TMA056_02:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA056_02:  14%|█▍        | 1/7 [00:15<01:34, 15.80s/it][A
+Processing Tx421_TMA056_02:  29%|██▊       | 2/7 [00:17<00:36,  7.28s/it][A
+Processing Tx421_TMA056_02:  43%|████▎     | 3/7 [00:18<00:18,  4.56s/it][A
+Processing Tx421_TMA056_02:  57%|█████▋    | 4/7 [00:19<00:09,  3.28s/it][A
+Processing Tx421_TMA056_02:  71%|███████▏  | 5/7 [00:30<00:11,  5.90s/it][A
+Processing Tx421_TMA056_02:  86%|████████▌ | 6/7 [00:31<00:04,  4.34s/it][A
+Processing Tx421_TMA056_02: 100%|██████████| 7/7 [00:32<00:00,  3.12s/it][AProcessing Tx421_TMA056_02: 100%|██████████| 7/7 [00:32<00:00,  4.60s/it]
+Overall Progress:  89%|████████▊ | 63/71 [33:31<04:09, 31.16s/it]
+Processing Tx421_TMA063:   0%|          | 0/6 [00:00<?, ?it/s][A
+Processing Tx421_TMA063:  17%|█▋        | 1/6 [00:15<01:16, 15.27s/it][A
+Processing Tx421_TMA063:  33%|███▎      | 2/6 [00:16<00:28,  7.06s/it][A
+Processing Tx421_TMA063:  50%|█████     | 3/6 [00:17<00:13,  4.44s/it][A
+Processing Tx421_TMA063:  67%|██████▋   | 4/6 [00:19<00:06,  3.21s/it][A
+Processing Tx421_TMA063:  83%|████████▎ | 5/6 [00:28<00:05,  5.44s/it][A
+Processing Tx421_TMA063: 100%|██████████| 6/6 [00:30<00:00,  4.15s/it][AProcessing Tx421_TMA063: 100%|██████████| 6/6 [00:30<00:00,  5.04s/it]
+Overall Progress:  90%|█████████ | 64/71 [34:02<03:38, 31.19s/it]
+Processing Tx421_TMA063:   0%|          | 0/6 [00:00<?, ?it/s][A
+Processing Tx421_TMA063:  17%|█▋        | 1/6 [00:15<01:18, 15.66s/it][A
+Processing Tx421_TMA063:  33%|███▎      | 2/6 [00:16<00:28,  7.22s/it][A
+Processing Tx421_TMA063:  50%|█████     | 3/6 [00:18<00:13,  4.53s/it][A
+Processing Tx421_TMA063:  67%|██████▋   | 4/6 [00:19<00:06,  3.26s/it][A
+Processing Tx421_TMA063:  83%|████████▎ | 5/6 [00:29<00:05,  5.58s/it][A
+Processing Tx421_TMA063: 100%|██████████| 6/6 [00:30<00:00,  4.16s/it][AProcessing Tx421_TMA063: 100%|██████████| 6/6 [00:30<00:00,  5.12s/it]
+Overall Progress:  92%|█████████▏| 65/71 [34:33<03:06, 31.10s/it]
+Processing Tx421_TMA064:   0%|          | 0/6 [00:00<?, ?it/s][A
+Processing Tx421_TMA064:  17%|█▋        | 1/6 [00:15<01:18, 15.68s/it][A
+Processing Tx421_TMA064:  33%|███▎      | 2/6 [00:17<00:28,  7.23s/it][A
+Processing Tx421_TMA064:  50%|█████     | 3/6 [00:18<00:13,  4.53s/it][A
+Processing Tx421_TMA064:  67%|██████▋   | 4/6 [00:19<00:06,  3.26s/it][A
+Processing Tx421_TMA064:  83%|████████▎ | 5/6 [00:29<00:05,  5.47s/it][A
+Processing Tx421_TMA064: 100%|██████████| 6/6 [00:30<00:00,  4.03s/it][AProcessing Tx421_TMA064: 100%|██████████| 6/6 [00:30<00:00,  5.04s/it]
+Overall Progress:  93%|█████████▎| 66/71 [35:04<02:35, 31.10s/it]
+Processing Tx421_TMA064:   0%|          | 0/6 [00:00<?, ?it/s][A
+Processing Tx421_TMA064:  17%|█▋        | 1/6 [00:15<01:18, 15.71s/it][A
+Processing Tx421_TMA064:  33%|███▎      | 2/6 [00:17<00:28,  7.24s/it][A
+Processing Tx421_TMA064:  50%|█████     | 3/6 [00:18<00:13,  4.54s/it][A
+Processing Tx421_TMA064:  67%|██████▋   | 4/6 [00:19<00:06,  3.27s/it][A
+Processing Tx421_TMA064:  83%|████████▎ | 5/6 [00:28<00:05,  5.27s/it][A
+Processing Tx421_TMA064: 100%|██████████| 6/6 [00:29<00:00,  3.90s/it][AProcessing Tx421_TMA064: 100%|██████████| 6/6 [00:29<00:00,  4.95s/it]
+Overall Progress:  94%|█████████▍| 67/71 [35:34<02:02, 30.74s/it]
+Processing Tx421_TMA064_02:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA064_02:  14%|█▍        | 1/7 [00:16<01:41, 16.93s/it][A
+Processing Tx421_TMA064_02:  29%|██▊       | 2/7 [00:18<00:38,  7.75s/it][A
+Processing Tx421_TMA064_02:  43%|████▎     | 3/7 [00:19<00:19,  4.81s/it][A
+Processing Tx421_TMA064_02:  57%|█████▋    | 4/7 [00:20<00:10,  3.43s/it][A
+Processing Tx421_TMA064_02:  71%|███████▏  | 5/7 [00:30<00:11,  5.74s/it][A
+Processing Tx421_TMA064_02:  86%|████████▌ | 6/7 [00:32<00:04,  4.33s/it][A
+Processing Tx421_TMA064_02: 100%|██████████| 7/7 [00:33<00:00,  3.31s/it][AProcessing Tx421_TMA064_02: 100%|██████████| 7/7 [00:33<00:00,  4.79s/it]
+Overall Progress:  96%|█████████▌| 68/71 [36:08<01:35, 31.84s/it]
+Processing Tx421_TMA065:   0%|          | 0/6 [00:00<?, ?it/s][A
+Processing Tx421_TMA065:  17%|█▋        | 1/6 [00:16<01:22, 16.55s/it][A
+Processing Tx421_TMA065:  33%|███▎      | 2/6 [00:17<00:30,  7.59s/it][A
+Processing Tx421_TMA065:  50%|█████     | 3/6 [00:19<00:14,  4.73s/it][A
+Processing Tx421_TMA065:  67%|██████▋   | 4/6 [00:20<00:06,  3.38s/it][A
+Processing Tx421_TMA065:  83%|████████▎ | 5/6 [00:29<00:05,  5.31s/it][A
+Processing Tx421_TMA065: 100%|██████████| 6/6 [00:30<00:00,  3.81s/it][AProcessing Tx421_TMA065: 100%|██████████| 6/6 [00:30<00:00,  5.02s/it]
+Overall Progress:  97%|█████████▋| 69/71 [36:39<01:03, 31.51s/it]
+Processing Tx421_TMA065:   0%|          | 0/6 [00:00<?, ?it/s][A
+Processing Tx421_TMA065:  17%|█▋        | 1/6 [00:14<01:14, 14.87s/it][A
+Processing Tx421_TMA065:  33%|███▎      | 2/6 [00:16<00:27,  6.90s/it][A
+Processing Tx421_TMA065:  50%|█████     | 3/6 [00:17<00:13,  4.35s/it][A
+Processing Tx421_TMA065:  67%|██████▋   | 4/6 [00:18<00:06,  3.15s/it][A
+Processing Tx421_TMA065:  83%|████████▎ | 5/6 [00:27<00:05,  5.15s/it][A
+Processing Tx421_TMA065: 100%|██████████| 6/6 [00:28<00:00,  3.71s/it][AProcessing Tx421_TMA065: 100%|██████████| 6/6 [00:28<00:00,  4.74s/it]
+Overall Progress:  99%|█████████▊| 70/71 [37:08<00:30, 30.64s/it]
+Processing Tx421_TMA065_02:   0%|          | 0/7 [00:00<?, ?it/s][A
+Processing Tx421_TMA065_02:  14%|█▍        | 1/7 [00:15<01:32, 15.41s/it][A
+Processing Tx421_TMA065_02:  29%|██▊       | 2/7 [00:16<00:35,  7.12s/it][A
+Processing Tx421_TMA065_02:  43%|████▎     | 3/7 [00:18<00:17,  4.47s/it][A
+Processing Tx421_TMA065_02:  57%|█████▋    | 4/7 [00:19<00:09,  3.23s/it][A
+Processing Tx421_TMA065_02:  71%|███████▏  | 5/7 [00:30<00:12,  6.06s/it][A
+Processing Tx421_TMA065_02:  86%|████████▌ | 6/7 [00:31<00:04,  4.44s/it][A
+Processing Tx421_TMA065_02: 100%|██████████| 7/7 [00:32<00:00,  3.21s/it][AProcessing Tx421_TMA065_02: 100%|██████████| 7/7 [00:32<00:00,  4.63s/it]
+Overall Progress: 100%|██████████| 71/71 [37:41<00:00, 31.45s/it]Overall Progress: 100%|██████████| 71/71 [37:41<00:00, 31.85s/it]

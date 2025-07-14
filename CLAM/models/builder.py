@@ -99,6 +99,14 @@ def get_encoder(model_name, target_img_size=224):
                                              std=constants['std'],
                                              target_img_size=target_img_size)
     
+
+    elif model_name == 'conch_v1_5':
+        from transformers import AutoModel
+        titan = AutoModel.from_pretrained('MahmoodLab/TITAN', trust_remote_code=True)
+        model, img_transforms = titan.return_conch()
+        model.eval()
+
+
     elif model_name == 'prov_giga_path':
         model = timm.create_model("hf_hub:prov-gigapath/prov-gigapath", pretrained=True)
         img_transforms = transforms.Compose([

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/nemo/project/proj-tracerx-lung/tctProjects/kilimo/SlideCrush/CLAM/create_patches_fp.py", line 2, in <module>
+    from wsi_core.WholeSlideImage import WholeSlideImage
+  File "/nemo/project/proj-tracerx-lung/tctProjects/kilimo/SlideCrush/CLAM/wsi_core/WholeSlideImage.py", line 14, in <module>
+    import h5py
+  File "/nemo/project/proj-tracerx-lung/tctProjects/kilimo/miniconda3/envs/clam/lib/python3.10/site-packages/h5py/__init__.py", line 25, in <module>
+    from . import _errors
+  File "h5py/_errors.pyx", line 1, in init h5py._errors
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+slurmstepd: error: *** JOB 25986414 ON ga109 CANCELLED AT 2025-07-11T13:13:49 ***
