@@ -13,26 +13,15 @@ model = AutoModel.from_pretrained(
     trust_remote_code=True
 )
 
-
-
-# TODO check!
-
-# for TCGA i get patch_size 550 
-# but for TracerX i get patch_size 290 
-
-# This peram must be correct... othermise may make some extra batch effect? 
-
-### Must take conch 1.5 features and coords and then extract the slide embedding... 
-
-# TODO: not hardcode the dist value  
-
 def extract_slide_embedding(h5_path):
+    device = torch.device('cuda:0')
     with h5py.File(h5_path, 'r') as file:
         features = file['features'][:][None, ...]
         coords = file['coords'][:][None, ...].astype(np.int64)
-        features = torch.from_numpy(features)
-        coords = torch.from_numpy(coords)
-        patch_size_lv0 = 290
+        features = torch.from_numpy(features).to(device)
+        coords = torch.from_numpy(coords).to(device)
+        patch_size_lv0 = 512
+    model.to(device)
     with torch.autocast('cuda', torch.float16), torch.inference_mode():
         slide_embedding = model.encode_slide_from_patch_features(features, coords, patch_size_lv0)
     return slide_embedding.cpu().numpy()
@@ -49,6 +38,10 @@ def main():
     for fname in tqdm(h5_files, desc='Processing files'):
         in_path = os.path.join(args.input_dir, fname)
         out_path = os.path.join(args.output_dir, fname)
+        # Only process if output file does not already exist
+        if os.path.exists(out_path):
+            tqdm.write(f'Skipping {fname}: embedding already exists at {out_path}')
+            continue
         start_time = time.time()
         try:
             embedding = extract_slide_embedding(in_path)
@@ -61,3 +54,6 @@ def main():
 
 if __name__ == '__main__':
     main() 
+
+
+

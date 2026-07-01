@@ -1,4 +1,4 @@
-microns_per_patch_edge: 128 
+microns_per_patch_edge: 256 
 
 patch_level: 0
 slide_ext: ".ndpi"
@@ -6,11 +6,11 @@ model: "conch_v1_5"
 
 # Fully expanded paths
 raw_slides_dir: "/nemo/project/proj-tracerx-lung/tctProjects/kilimo/slides/to_transfer"
-patch_save_dir: "/nemo/project/proj-tracerx-lung/tctProjects/kilimo/TracerX_WSIs/20X/patches"
-csv_path: "/nemo/project/proj-tracerx-lung/tctProjects/kilimo/TracerX_WSIs/20X/patches/process_list_autogen.csv"
-feat_dir: "/nemo/project/proj-tracerx-lung/tctProjects/kilimo/TracerX_WSIs/20X/conch_v1_5"
+patch_save_dir: "/nemo/project/proj-tracerx-lung/tctProjects/kilimo/TracerX_WSIs/10X/patches"
+csv_path: "/nemo/project/proj-tracerx-lung/tctProjects/kilimo/TracerX_WSIs/10X/patches/process_list_autogen.csv"
+feat_dir: "/nemo/project/proj-tracerx-lung/tctProjects/kilimo/TracerX_WSIs/10X/conch_v1_5"
 batch_size: 512
 max_patches: 3000000000
-cuda_devices_patch: "0"
-cuda_devices_embed: "0"
+cuda_devices_patch: "2"
+cuda_devices_embed: "2"
 preset: "CLAM/presets/bwh_resection.csv"

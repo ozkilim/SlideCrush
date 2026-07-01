@@ -35,7 +35,7 @@ echo "Working directory: $(pwd)"
 
 # Run the embed script with the TracerX configuration
 echo "Starting embed.sh with TracerX configuration..."
-./embed.sh /nemo/project/proj-tracerx-lung/tctProjects/kilimo/SlideCrush/configs/TracerX/LUAD_TCGA.yaml
+./embed.sh /nemo/project/proj-tracerx-lung/tctProjects/kilimo/analysis/SlideCrush/configs/TracerX/CPTAC.yaml
 
 echo "============================================"
 echo "Job completed at: $(date)"
