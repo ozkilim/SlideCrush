@@ -1,1 +1,5 @@
 resources/
+# run noise
+logs/
+slurm-*.out
+SlideCrush/

@@ -1,7 +1,0 @@
-Traceback (most recent call last):
-  File "/nemo/project/proj-tracerx-lung/tctProjects/kilimo/SlideCrush/CLAM/create_patches_fp.py", line 2, in <module>
-    from wsi_core.WholeSlideImage import WholeSlideImage
-  File "/nemo/project/proj-tracerx-lung/tctProjects/kilimo/SlideCrush/CLAM/wsi_core/WholeSlideImage.py", line 11, in <module>
-    import tiffslide
-ModuleNotFoundError: No module named 'tiffslide'
-slurmstepd: error: *** JOB 25986427 ON ga109 CANCELLED AT 2025-07-11T13:15:04 ***

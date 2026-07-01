@@ -1,159 +1,0 @@
-  0%|          | 0/541 [00:00<?, ?it/s]  0%|          | 1/541 [00:00<01:01,  8.71it/s]  1%|▏         | 7/541 [00:00<00:17, 31.04it/s]  3%|▎         | 16/541 [00:00<00:09, 53.92it/s]  5%|▌         | 29/541 [00:00<00:06, 80.27it/s]  7%|▋         | 38/541 [00:00<00:12, 40.73it/s] 12%|█▏        | 63/541 [00:00<00:05, 80.45it/s] 17%|█▋        | 91/541 [00:01<00:03, 122.24it/s] 21%|██▏       | 115/541 [00:01<00:02, 149.30it/s] 27%|██▋       | 144/541 [00:01<00:02, 183.24it/s] 32%|███▏      | 173/541 [00:01<00:01, 209.58it/s] 37%|███▋      | 198/541 [00:01<00:01, 217.23it/s] 42%|████▏     | 226/541 [00:01<00:01, 234.29it/s] 47%|████▋     | 254/541 [00:01<00:01, 246.99it/s] 52%|█████▏    | 280/541 [00:01<00:01, 230.75it/s] 57%|█████▋    | 309/541 [00:01<00:00, 245.28it/s] 62%|██████▏   | 337/541 [00:02<00:00, 254.98it/s] 67%|██████▋   | 365/541 [00:02<00:00, 260.86it/s] 72%|███████▏  | 392/541 [00:02<00:00, 252.98it/s] 78%|███████▊  | 420/541 [00:02<00:00, 258.22it/s] 83%|████████▎ | 447/541 [00:02<00:00, 261.40it/s] 88%|████████▊ | 474/541 [00:02<00:00, 256.87it/s] 93%|█████████▎| 502/541 [00:02<00:00, 262.72it/s] 98%|█████████▊| 529/541 [00:02<00:00, 254.54it/s]100%|██████████| 541/541 [00:02<00:00, 191.79it/s]
-/nemo/project/proj-tracerx-lung/tctProjects/kilimo/miniconda3/envs/TracerX/lib/python3.9/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/nemo/project/proj-tracerx-lung/tctProjects/kilimo/miniconda3/envs/TracerX/lib/python3.9/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-Overall Progress:   0%|          | 0/541 [00:00<?, ?it/s]
-Processing TCGA-05-4244-01Z-00-DX1.d4ff32cd-38cf-40ea-8213-45c2b100ac01:   0%|          | 0/5 [00:00<?, ?it/s][A
-Processing TCGA-05-4244-01Z-00-DX1.d4ff32cd-38cf-40ea-8213-45c2b100ac01:  20%|██        | 1/5 [00:42<02:51, 42.77s/it][A
-Processing TCGA-05-4244-01Z-00-DX1.d4ff32cd-38cf-40ea-8213-45c2b100ac01:  40%|████      | 2/5 [00:45<00:56, 19.00s/it][A
-Processing TCGA-05-4244-01Z-00-DX1.d4ff32cd-38cf-40ea-8213-45c2b100ac01:  60%|██████    | 3/5 [00:47<00:22, 11.40s/it][A
-Processing TCGA-05-4244-01Z-00-DX1.d4ff32cd-38cf-40ea-8213-45c2b100ac01:  80%|████████  | 4/5 [00:49<00:07,  7.83s/it][A
-Processing TCGA-05-4244-01Z-00-DX1.d4ff32cd-38cf-40ea-8213-45c2b100ac01: 100%|██████████| 5/5 [00:51<00:00,  5.64s/it][AProcessing TCGA-05-4244-01Z-00-DX1.d4ff32cd-38cf-40ea-8213-45c2b100ac01: 100%|██████████| 5/5 [00:51<00:00, 10.32s/it]
-Overall Progress:   0%|          | 1/541 [00:52<7:50:42, 52.30s/it]
-Processing TCGA-05-4245-01Z-00-DX1.36ff5403-d4bb-4415-b2c5-7c750d655cde:   0%|          | 0/4 [00:00<?, ?it/s][A
-Processing TCGA-05-4245-01Z-00-DX1.36ff5403-d4bb-4415-b2c5-7c750d655cde:  25%|██▌       | 1/4 [00:27<01:21, 27.09s/it][A
-Processing TCGA-05-4245-01Z-00-DX1.36ff5403-d4bb-4415-b2c5-7c750d655cde:  50%|█████     | 2/4 [00:29<00:25, 12.55s/it][A
-Processing TCGA-05-4245-01Z-00-DX1.36ff5403-d4bb-4415-b2c5-7c750d655cde:  75%|███████▌  | 3/4 [00:31<00:07,  7.90s/it][A
-Processing TCGA-05-4245-01Z-00-DX1.36ff5403-d4bb-4415-b2c5-7c750d655cde: 100%|██████████| 4/4 [00:32<00:00,  5.15s/it][AProcessing TCGA-05-4245-01Z-00-DX1.36ff5403-d4bb-4415-b2c5-7c750d655cde: 100%|██████████| 4/4 [00:32<00:00,  8.19s/it]
-Overall Progress:   0%|          | 2/541 [01:25<6:10:49, 41.28s/it]
-Processing TCGA-05-4249-01Z-00-DX1.9fce0297-cc19-4c04-872c-4466ee4024db:   0%|          | 0/8 [00:00<?, ?it/s][A
-Processing TCGA-05-4249-01Z-00-DX1.9fce0297-cc19-4c04-872c-4466ee4024db:  12%|█▎        | 1/8 [00:31<03:39, 31.42s/it][A
-Processing TCGA-05-4249-01Z-00-DX1.9fce0297-cc19-4c04-872c-4466ee4024db:  25%|██▌       | 2/8 [00:33<01:25, 14.32s/it][A
-Processing TCGA-05-4249-01Z-00-DX1.9fce0297-cc19-4c04-872c-4466ee4024db:  38%|███▊      | 3/8 [00:36<00:44,  8.89s/it][A
-Processing TCGA-05-4249-01Z-00-DX1.9fce0297-cc19-4c04-872c-4466ee4024db:  50%|█████     | 4/8 [00:38<00:25,  6.31s/it][A
-Processing TCGA-05-4249-01Z-00-DX1.9fce0297-cc19-4c04-872c-4466ee4024db:  62%|██████▎   | 5/8 [00:51<00:25,  8.52s/it][A
-Processing TCGA-05-4249-01Z-00-DX1.9fce0297-cc19-4c04-872c-4466ee4024db:  75%|███████▌  | 6/8 [00:54<00:13,  6.68s/it][A
-Processing TCGA-05-4249-01Z-00-DX1.9fce0297-cc19-4c04-872c-4466ee4024db:  88%|████████▊ | 7/8 [00:57<00:05,  5.66s/it][A
-Processing TCGA-05-4249-01Z-00-DX1.9fce0297-cc19-4c04-872c-4466ee4024db: 100%|██████████| 8/8 [00:58<00:00,  4.03s/it][AProcessing TCGA-05-4249-01Z-00-DX1.9fce0297-cc19-4c04-872c-4466ee4024db: 100%|██████████| 8/8 [00:58<00:00,  7.28s/it]
-Overall Progress:   1%|          | 3/541 [02:24<7:21:56, 49.29s/it]
-Processing TCGA-05-4250-01Z-00-DX1.90f67fdf-dff9-46ca-af71-0978d7c221ba:   0%|          | 0/7 [00:00<?, ?it/s][A
-Processing TCGA-05-4250-01Z-00-DX1.90f67fdf-dff9-46ca-af71-0978d7c221ba:  14%|█▍        | 1/7 [00:28<02:50, 28.35s/it][A
-Processing TCGA-05-4250-01Z-00-DX1.90f67fdf-dff9-46ca-af71-0978d7c221ba:  29%|██▊       | 2/7 [00:30<01:05, 13.07s/it][A
-Processing TCGA-05-4250-01Z-00-DX1.90f67fdf-dff9-46ca-af71-0978d7c221ba:  43%|████▎     | 3/7 [00:33<00:32,  8.19s/it][A
-Processing TCGA-05-4250-01Z-00-DX1.90f67fdf-dff9-46ca-af71-0978d7c221ba:  57%|█████▋    | 4/7 [00:35<00:17,  5.89s/it][A
-Processing TCGA-05-4250-01Z-00-DX1.90f67fdf-dff9-46ca-af71-0978d7c221ba:  71%|███████▏  | 5/7 [00:48<00:16,  8.44s/it][A
-Processing TCGA-05-4250-01Z-00-DX1.90f67fdf-dff9-46ca-af71-0978d7c221ba:  86%|████████▌ | 6/7 [00:50<00:06,  6.37s/it][A
-Processing TCGA-05-4250-01Z-00-DX1.90f67fdf-dff9-46ca-af71-0978d7c221ba: 100%|██████████| 7/7 [00:51<00:00,  4.67s/it][AProcessing TCGA-05-4250-01Z-00-DX1.90f67fdf-dff9-46ca-af71-0978d7c221ba: 100%|██████████| 7/7 [00:51<00:00,  7.42s/it]
-Overall Progress:   1%|          | 4/541 [03:17<7:32:51, 50.60s/it]
-Processing TCGA-05-4382-01Z-00-DX1.76b49a4c-dbbb-48b0-b677-6d3037e5ce88:   0%|          | 0/6 [00:00<?, ?it/s][A
-Processing TCGA-05-4382-01Z-00-DX1.76b49a4c-dbbb-48b0-b677-6d3037e5ce88:  17%|█▋        | 1/6 [00:25<02:09, 25.98s/it][A
-Processing TCGA-05-4382-01Z-00-DX1.76b49a4c-dbbb-48b0-b677-6d3037e5ce88:  33%|███▎      | 2/6 [00:28<00:48, 12.09s/it][A
-Processing TCGA-05-4382-01Z-00-DX1.76b49a4c-dbbb-48b0-b677-6d3037e5ce88:  50%|█████     | 3/6 [00:30<00:22,  7.65s/it][A
-Processing TCGA-05-4382-01Z-00-DX1.76b49a4c-dbbb-48b0-b677-6d3037e5ce88:  67%|██████▋   | 4/6 [00:33<00:11,  5.57s/it][A
-Processing TCGA-05-4382-01Z-00-DX1.76b49a4c-dbbb-48b0-b677-6d3037e5ce88:  83%|████████▎ | 5/6 [00:43<00:07,  7.48s/it][A
-Processing TCGA-05-4382-01Z-00-DX1.76b49a4c-dbbb-48b0-b677-6d3037e5ce88: 100%|██████████| 6/6 [00:44<00:00,  5.08s/it][AProcessing TCGA-05-4382-01Z-00-DX1.76b49a4c-dbbb-48b0-b677-6d3037e5ce88: 100%|██████████| 6/6 [00:44<00:00,  7.40s/it]
-Overall Progress:   1%|          | 5/541 [04:02<7:14:19, 48.62s/it]
-Processing TCGA-05-4395-01Z-00-DX1.20205276-ca16-46b2-914a-fe5e576a5cf9:   0%|          | 0/5 [00:00<?, ?it/s][A
-Processing TCGA-05-4395-01Z-00-DX1.20205276-ca16-46b2-914a-fe5e576a5cf9:  20%|██        | 1/5 [00:27<01:51, 27.89s/it][A
-Processing TCGA-05-4395-01Z-00-DX1.20205276-ca16-46b2-914a-fe5e576a5cf9:  40%|████      | 2/5 [00:30<00:38, 12.87s/it][A
-Processing TCGA-05-4395-01Z-00-DX1.20205276-ca16-46b2-914a-fe5e576a5cf9:  60%|██████    | 3/5 [00:32<00:16,  8.08s/it][A
-Processing TCGA-05-4395-01Z-00-DX1.20205276-ca16-46b2-914a-fe5e576a5cf9:  80%|████████  | 4/5 [00:35<00:05,  5.84s/it][A
-Processing TCGA-05-4395-01Z-00-DX1.20205276-ca16-46b2-914a-fe5e576a5cf9: 100%|██████████| 5/5 [00:35<00:00,  3.83s/it][AProcessing TCGA-05-4395-01Z-00-DX1.20205276-ca16-46b2-914a-fe5e576a5cf9: 100%|██████████| 5/5 [00:35<00:00,  7.06s/it]
-Overall Progress:   1%|▏         | 8/541 [04:38<3:54:21, 26.38s/it]
-Processing TCGA-05-4396-01Z-00-DX1.49DD5F68-7473-4945-B384-EA6D5AE383CB:   0%|          | 0/10 [00:00<?, ?it/s][A
-Processing TCGA-05-4396-01Z-00-DX1.49DD5F68-7473-4945-B384-EA6D5AE383CB:  10%|█         | 1/10 [00:28<04:20, 28.95s/it][A
-Processing TCGA-05-4396-01Z-00-DX1.49DD5F68-7473-4945-B384-EA6D5AE383CB:  20%|██        | 2/10 [00:31<01:46, 13.32s/it][A
-Processing TCGA-05-4396-01Z-00-DX1.49DD5F68-7473-4945-B384-EA6D5AE383CB:  30%|███       | 3/10 [00:33<00:58,  8.32s/it][A
-Processing TCGA-05-4396-01Z-00-DX1.49DD5F68-7473-4945-B384-EA6D5AE383CB:  40%|████      | 4/10 [00:36<00:35,  5.97s/it][A
-Processing TCGA-05-4396-01Z-00-DX1.49DD5F68-7473-4945-B384-EA6D5AE383CB:  50%|█████     | 5/10 [00:53<00:50, 10.08s/it][A
-Processing TCGA-05-4396-01Z-00-DX1.49DD5F68-7473-4945-B384-EA6D5AE383CB:  60%|██████    | 6/10 [00:55<00:29,  7.46s/it][A
-Processing TCGA-05-4396-01Z-00-DX1.49DD5F68-7473-4945-B384-EA6D5AE383CB:  70%|███████   | 7/10 [00:58<00:17,  5.79s/it][A
-Processing TCGA-05-4396-01Z-00-DX1.49DD5F68-7473-4945-B384-EA6D5AE383CB:  80%|████████  | 8/10 [01:00<00:09,  4.70s/it][A
-Processing TCGA-05-4396-01Z-00-DX1.49DD5F68-7473-4945-B384-EA6D5AE383CB:  90%|█████████ | 9/10 [01:15<00:07,  7.89s/it][A
-Processing TCGA-05-4396-01Z-00-DX1.49DD5F68-7473-4945-B384-EA6D5AE383CB: 100%|██████████| 10/10 [01:16<00:00,  5.90s/it][AProcessing TCGA-05-4396-01Z-00-DX1.49DD5F68-7473-4945-B384-EA6D5AE383CB: 100%|██████████| 10/10 [01:16<00:00,  7.69s/it]
-Overall Progress:   2%|▏         | 9/541 [05:55<5:35:38, 37.85s/it]
-Processing TCGA-05-4397-01Z-00-DX1.00e9cdb3-b50e-439c-86b0-d7b73b802c0d:   0%|          | 0/11 [00:00<?, ?it/s][A
-Processing TCGA-05-4397-01Z-00-DX1.00e9cdb3-b50e-439c-86b0-d7b73b802c0d:   9%|▉         | 1/11 [00:31<05:17, 31.70s/it][A
-Processing TCGA-05-4397-01Z-00-DX1.00e9cdb3-b50e-439c-86b0-d7b73b802c0d:  18%|█▊        | 2/11 [00:34<02:10, 14.45s/it][A
-Processing TCGA-05-4397-01Z-00-DX1.00e9cdb3-b50e-439c-86b0-d7b73b802c0d:  27%|██▋       | 3/11 [00:36<01:11,  8.93s/it][A
-Processing TCGA-05-4397-01Z-00-DX1.00e9cdb3-b50e-439c-86b0-d7b73b802c0d:  36%|███▋      | 4/11 [00:38<00:44,  6.34s/it][A
-Processing TCGA-05-4397-01Z-00-DX1.00e9cdb3-b50e-439c-86b0-d7b73b802c0d:  45%|████▌     | 5/11 [00:56<01:03, 10.53s/it][A
-Processing TCGA-05-4397-01Z-00-DX1.00e9cdb3-b50e-439c-86b0-d7b73b802c0d:  55%|█████▍    | 6/11 [00:59<00:38,  7.75s/it][A
-Processing TCGA-05-4397-01Z-00-DX1.00e9cdb3-b50e-439c-86b0-d7b73b802c0d:  64%|██████▎   | 7/11 [01:01<00:23,  5.99s/it][A
-Processing TCGA-05-4397-01Z-00-DX1.00e9cdb3-b50e-439c-86b0-d7b73b802c0d:  73%|███████▎  | 8/11 [01:03<00:14,  4.84s/it][A
-Processing TCGA-05-4397-01Z-00-DX1.00e9cdb3-b50e-439c-86b0-d7b73b802c0d:  82%|████████▏ | 9/11 [01:21<00:17,  8.77s/it][A
-Processing TCGA-05-4397-01Z-00-DX1.00e9cdb3-b50e-439c-86b0-d7b73b802c0d:  91%|█████████ | 10/11 [01:23<00:06,  6.86s/it][A
-Processing TCGA-05-4397-01Z-00-DX1.00e9cdb3-b50e-439c-86b0-d7b73b802c0d: 100%|██████████| 11/11 [01:24<00:00,  4.87s/it][AProcessing TCGA-05-4397-01Z-00-DX1.00e9cdb3-b50e-439c-86b0-d7b73b802c0d: 100%|██████████| 11/11 [01:24<00:00,  7.65s/it]
-Overall Progress:   2%|▏         | 10/541 [07:20<7:15:59, 49.26s/it]
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74:   0%|          | 0/14 [00:00<?, ?it/s][A
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74:   7%|▋         | 1/14 [00:22<04:49, 22.29s/it][A
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74:  14%|█▍        | 2/14 [00:26<02:23, 11.92s/it][A
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74:  21%|██▏       | 3/14 [00:29<01:23,  7.55s/it][A
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74:  29%|██▊       | 4/14 [00:31<00:55,  5.51s/it][A
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74:  36%|███▌      | 5/14 [00:44<01:14,  8.22s/it][A
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74:  43%|████▎     | 6/14 [00:47<00:49,  6.24s/it][A
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74:  50%|█████     | 7/14 [00:49<00:34,  4.98s/it][A
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74:  57%|█████▋    | 8/14 [00:52<00:26,  4.35s/it][A
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74:  64%|██████▍   | 9/14 [01:08<00:40,  8.15s/it][A
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74:  71%|███████▏  | 10/14 [01:11<00:25,  6.44s/it][A
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74:  79%|███████▊  | 11/14 [01:13<00:15,  5.20s/it][A
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74:  86%|████████▌ | 12/14 [01:16<00:08,  4.33s/it][A
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74:  93%|█████████▎| 13/14 [01:29<00:06,  6.90s/it][A
-Processing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74: 100%|██████████| 14/14 [01:31<00:00,  5.39s/it][AProcessing TCGA-05-4398-01Z-00-DX1.269bc75f-492e-48b1-87ee-85924aa80e74: 100%|██████████| 14/14 [01:31<00:00,  6.50s/it]
-Overall Progress:   2%|▏         | 11/541 [08:52<8:51:20, 60.15s/it]
-Processing TCGA-05-4402-01Z-00-DX1.c653ddc2-88c1-45ac-88e7-4e512b8e8d53:   0%|          | 0/12 [00:00<?, ?it/s][A
-Processing TCGA-05-4402-01Z-00-DX1.c653ddc2-88c1-45ac-88e7-4e512b8e8d53:   8%|▊         | 1/12 [00:28<05:09, 28.16s/it][A
-Processing TCGA-05-4402-01Z-00-DX1.c653ddc2-88c1-45ac-88e7-4e512b8e8d53:  17%|█▋        | 2/12 [00:30<02:09, 13.00s/it][A
-Processing TCGA-05-4402-01Z-00-DX1.c653ddc2-88c1-45ac-88e7-4e512b8e8d53:  25%|██▌       | 3/12 [00:32<01:13,  8.14s/it][A
-Processing TCGA-05-4402-01Z-00-DX1.c653ddc2-88c1-45ac-88e7-4e512b8e8d53:  33%|███▎      | 4/12 [00:35<00:46,  5.86s/it][A
-Processing TCGA-05-4402-01Z-00-DX1.c653ddc2-88c1-45ac-88e7-4e512b8e8d53:  42%|████▏     | 5/12 [00:55<01:17, 11.06s/it][A
-Processing TCGA-05-4402-01Z-00-DX1.c653ddc2-88c1-45ac-88e7-4e512b8e8d53:  50%|█████     | 6/12 [00:57<00:48,  8.11s/it][A
-Processing TCGA-05-4402-01Z-00-DX1.c653ddc2-88c1-45ac-88e7-4e512b8e8d53:  58%|█████▊    | 7/12 [01:00<00:31,  6.23s/it][A
-Processing TCGA-05-4402-01Z-00-DX1.c653ddc2-88c1-45ac-88e7-4e512b8e8d53:  67%|██████▋   | 8/12 [01:02<00:19,  5.00s/it][A
-Processing TCGA-05-4402-01Z-00-DX1.c653ddc2-88c1-45ac-88e7-4e512b8e8d53:  75%|███████▌  | 9/12 [01:16<00:23,  7.69s/it][A
-Processing TCGA-05-4402-01Z-00-DX1.c653ddc2-88c1-45ac-88e7-4e512b8e8d53:  83%|████████▎ | 10/12 [01:18<00:12,  6.12s/it][A
-Processing TCGA-05-4402-01Z-00-DX1.c653ddc2-88c1-45ac-88e7-4e512b8e8d53:  92%|█████████▏| 11/12 [01:21<00:04,  4.98s/it][A
-Processing TCGA-05-4402-01Z-00-DX1.c653ddc2-88c1-45ac-88e7-4e512b8e8d53: 100%|██████████| 12/12 [01:23<00:00,  4.25s/it][AProcessing TCGA-05-4402-01Z-00-DX1.c653ddc2-88c1-45ac-88e7-4e512b8e8d53: 100%|██████████| 12/12 [01:23<00:00,  6.99s/it]
-Overall Progress:   2%|▏         | 12/541 [10:16<9:48:05, 66.70s/it]
-Processing TCGA-05-4403-01Z-00-DX1.fee8e988-956c-42a2-a6c5-06b6d6736295:   0%|          | 0/9 [00:00<?, ?it/s][A
-Processing TCGA-05-4403-01Z-00-DX1.fee8e988-956c-42a2-a6c5-06b6d6736295:  11%|█         | 1/9 [00:27<03:37, 27.20s/it][A
-Processing TCGA-05-4403-01Z-00-DX1.fee8e988-956c-42a2-a6c5-06b6d6736295:  22%|██▏       | 2/9 [00:29<01:28, 12.60s/it][A
-Processing TCGA-05-4403-01Z-00-DX1.fee8e988-956c-42a2-a6c5-06b6d6736295:  33%|███▎      | 3/9 [00:31<00:47,  7.93s/it][A
-Processing TCGA-05-4403-01Z-00-DX1.fee8e988-956c-42a2-a6c5-06b6d6736295:  44%|████▍     | 4/9 [00:34<00:28,  5.74s/it][A
-Processing TCGA-05-4403-01Z-00-DX1.fee8e988-956c-42a2-a6c5-06b6d6736295:  56%|█████▌    | 5/9 [00:52<00:40, 10.25s/it][A
-Processing TCGA-05-4403-01Z-00-DX1.fee8e988-956c-42a2-a6c5-06b6d6736295:  67%|██████▋   | 6/9 [00:54<00:22,  7.57s/it][A
-Processing TCGA-05-4403-01Z-00-DX1.fee8e988-956c-42a2-a6c5-06b6d6736295:  78%|███████▊  | 7/9 [00:57<00:11,  5.87s/it][A
-Processing TCGA-05-4403-01Z-00-DX1.fee8e988-956c-42a2-a6c5-06b6d6736295:  89%|████████▉ | 8/9 [00:59<00:04,  4.76s/it][A
-Processing TCGA-05-4403-01Z-00-DX1.fee8e988-956c-42a2-a6c5-06b6d6736295: 100%|██████████| 9/9 [01:06<00:00,  5.50s/it][AProcessing TCGA-05-4403-01Z-00-DX1.fee8e988-956c-42a2-a6c5-06b6d6736295: 100%|██████████| 9/9 [01:06<00:00,  7.43s/it]
-Overall Progress:   2%|▏         | 13/541 [11:24<9:48:57, 66.93s/it]
-Processing TCGA-05-4405-01Z-00-DX1.D57EC2B2-3A59-4954-86A7-61782938BCC5:   0%|          | 0/5 [00:00<?, ?it/s][A
-Processing TCGA-05-4405-01Z-00-DX1.D57EC2B2-3A59-4954-86A7-61782938BCC5:  20%|██        | 1/5 [00:25<01:40, 25.05s/it][A
-Processing TCGA-05-4405-01Z-00-DX1.D57EC2B2-3A59-4954-86A7-61782938BCC5:  40%|████      | 2/5 [00:28<00:37, 12.62s/it][A
-Processing TCGA-05-4405-01Z-00-DX1.D57EC2B2-3A59-4954-86A7-61782938BCC5:  60%|██████    | 3/5 [00:31<00:15,  7.94s/it][A
-Processing TCGA-05-4405-01Z-00-DX1.D57EC2B2-3A59-4954-86A7-61782938BCC5:  80%|████████  | 4/5 [00:33<00:05,  5.74s/it][A
-Processing TCGA-05-4405-01Z-00-DX1.D57EC2B2-3A59-4954-86A7-61782938BCC5: 100%|██████████| 5/5 [00:43<00:00,  7.33s/it][AProcessing TCGA-05-4405-01Z-00-DX1.D57EC2B2-3A59-4954-86A7-61782938BCC5: 100%|██████████| 5/5 [00:43<00:00,  8.77s/it]
-Overall Progress:   3%|▎         | 14/541 [12:08<8:51:55, 60.56s/it]
-Processing TCGA-05-4415-01Z-00-DX1.55E0C429-B308-4962-8DA9-41D7D3F7764E:   0%|          | 0/7 [00:00<?, ?it/s][A
-Processing TCGA-05-4415-01Z-00-DX1.55E0C429-B308-4962-8DA9-41D7D3F7764E:  14%|█▍        | 1/7 [00:23<02:18, 23.01s/it][A
-Processing TCGA-05-4415-01Z-00-DX1.55E0C429-B308-4962-8DA9-41D7D3F7764E:  29%|██▊       | 2/7 [00:26<00:56, 11.30s/it][A
-Processing TCGA-05-4415-01Z-00-DX1.55E0C429-B308-4962-8DA9-41D7D3F7764E:  43%|████▎     | 3/7 [00:28<00:28,  7.22s/it][A
-Processing TCGA-05-4415-01Z-00-DX1.55E0C429-B308-4962-8DA9-41D7D3F7764E:  57%|█████▋    | 4/7 [00:30<00:15,  5.31s/it][A
-Processing TCGA-05-4415-01Z-00-DX1.55E0C429-B308-4962-8DA9-41D7D3F7764E:  71%|███████▏  | 5/7 [00:43<00:16,  8.03s/it][A
-Processing TCGA-05-4415-01Z-00-DX1.55E0C429-B308-4962-8DA9-41D7D3F7764E:  86%|████████▌ | 6/7 [00:46<00:06,  6.30s/it][A
-Processing TCGA-05-4415-01Z-00-DX1.55E0C429-B308-4962-8DA9-41D7D3F7764E: 100%|██████████| 7/7 [00:46<00:00,  4.34s/it][AProcessing TCGA-05-4415-01Z-00-DX1.55E0C429-B308-4962-8DA9-41D7D3F7764E: 100%|██████████| 7/7 [00:46<00:00,  6.71s/it]
-Overall Progress:   3%|▎         | 16/541 [12:56<6:25:56, 44.11s/it]
-Processing TCGA-05-4417-01Z-00-DX1.6E534856-996F-4BD9-8AFC-7B1BF627E505:   0%|          | 0/9 [00:00<?, ?it/s][A
-Processing TCGA-05-4417-01Z-00-DX1.6E534856-996F-4BD9-8AFC-7B1BF627E505:  11%|█         | 1/9 [00:24<03:19, 24.98s/it][A
-Processing TCGA-05-4417-01Z-00-DX1.6E534856-996F-4BD9-8AFC-7B1BF627E505:  22%|██▏       | 2/9 [00:29<01:28, 12.67s/it][A
-Processing TCGA-05-4417-01Z-00-DX1.6E534856-996F-4BD9-8AFC-7B1BF627E505:  33%|███▎      | 3/9 [00:31<00:47,  7.97s/it][A
-Processing TCGA-05-4417-01Z-00-DX1.6E534856-996F-4BD9-8AFC-7B1BF627E505:  44%|████▍     | 4/9 [00:33<00:28,  5.76s/it][A
-Processing TCGA-05-4417-01Z-00-DX1.6E534856-996F-4BD9-8AFC-7B1BF627E505:  56%|█████▌    | 5/9 [00:44<00:30,  7.59s/it][A
-Processing TCGA-05-4417-01Z-00-DX1.6E534856-996F-4BD9-8AFC-7B1BF627E505:  67%|██████▋   | 6/9 [00:51<00:22,  7.42s/it][A
-Processing TCGA-05-4417-01Z-00-DX1.6E534856-996F-4BD9-8AFC-7B1BF627E505:  78%|███████▊  | 7/9 [00:54<00:11,  5.77s/it][A
-Processing TCGA-05-4417-01Z-00-DX1.6E534856-996F-4BD9-8AFC-7B1BF627E505:  89%|████████▉ | 8/9 [00:56<00:04,  4.69s/it][A
-Processing TCGA-05-4417-01Z-00-DX1.6E534856-996F-4BD9-8AFC-7B1BF627E505: 100%|██████████| 9/9 [00:57<00:00,  3.49s/it][AProcessing TCGA-05-4417-01Z-00-DX1.6E534856-996F-4BD9-8AFC-7B1BF627E505: 100%|██████████| 9/9 [00:57<00:00,  6.37s/it]
-Overall Progress:   3%|▎         | 17/541 [13:54<6:54:45, 47.49s/it]
-Processing TCGA-05-4418-01Z-00-DX1.f3863ea5-564f-482f-9878-cc104cf69401:   0%|          | 0/10 [00:00<?, ?it/s][A
-Processing TCGA-05-4418-01Z-00-DX1.f3863ea5-564f-482f-9878-cc104cf69401:  10%|█         | 1/10 [00:23<03:34, 23.85s/it][A
-Processing TCGA-05-4418-01Z-00-DX1.f3863ea5-564f-482f-9878-cc104cf69401:  20%|██        | 2/10 [00:26<01:29, 11.22s/it][A
-Processing TCGA-05-4418-01Z-00-DX1.f3863ea5-564f-482f-9878-cc104cf69401:  30%|███       | 3/10 [00:28<00:50,  7.28s/it][A
-Processing TCGA-05-4418-01Z-00-DX1.f3863ea5-564f-482f-9878-cc104cf69401:  40%|████      | 4/10 [00:31<00:32,  5.34s/it][A
-Processing TCGA-05-4418-01Z-00-DX1.f3863ea5-564f-482f-9878-cc104cf69401:  50%|█████     | 5/10 [00:43<00:39,  7.90s/it][A
-Processing TCGA-05-4418-01Z-00-DX1.f3863ea5-564f-482f-9878-cc104cf69401:  60%|██████    | 6/10 [00:47<00:26,  6.59s/it][A
-Processing TCGA-05-4418-01Z-00-DX1.f3863ea5-564f-482f-9878-cc104cf69401:  70%|███████   | 7/10 [00:50<00:15,  5.21s/it][A
-Processing TCGA-05-4418-01Z-00-DX1.f3863ea5-564f-482f-9878-cc104cf69401:  80%|████████  | 8/10 [00:53<00:09,  4.73s/it][A
-Processing TCGA-05-4418-01Z-00-DX1.f3863ea5-564f-482f-9878-cc104cf69401:  90%|█████████ | 9/10 [01:02<00:05,  5.99s/it][A
-Processing TCGA-05-4418-01Z-00-DX1.f3863ea5-564f-482f-9878-cc104cf69401: 100%|██████████| 10/10 [01:05<00:00,  4.93s/it][AProcessing TCGA-05-4418-01Z-00-DX1.f3863ea5-564f-482f-9878-cc104cf69401: 100%|██████████| 10/10 [01:05<00:00,  6.51s/it]
-Overall Progress:   3%|▎         | 18/541 [15:00<7:35:04, 52.21s/it]
-Processing TCGA-05-4420-01Z-00-DX1.2df0552e-87dc-491e-9be2-be8fbce2660d:   0%|          | 0/6 [00:00<?, ?it/s][A
